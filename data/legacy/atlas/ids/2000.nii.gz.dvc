@@ -1,0 +1,5 @@
+outs:
+- md5: aa76f02c0dac1ec351c47ab058acc493
+  size: 76209
+  hash: md5
+  path: 2000.nii.gz

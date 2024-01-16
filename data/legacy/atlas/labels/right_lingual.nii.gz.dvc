@@ -1,0 +1,5 @@
+outs:
+- md5: 314f4c9ce8eb6084264409e122b71656
+  size: 82836
+  hash: md5
+  path: right_lingual.nii.gz

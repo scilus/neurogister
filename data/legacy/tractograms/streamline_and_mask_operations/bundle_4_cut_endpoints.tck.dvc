@@ -1,0 +1,5 @@
+outs:
+- md5: dccbce77f6b5f0251e3dfb9d2fd59893
+  size: 12870
+  hash: md5
+  path: bundle_4_cut_endpoints.tck

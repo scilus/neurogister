@@ -1,0 +1,5 @@
+outs:
+- md5: 51138baa80387e1de799ef282e18cef0
+  size: 265212
+  hash: md5
+  path: sub-001_echo-4_acq-t1w_mtsat.nii.gz

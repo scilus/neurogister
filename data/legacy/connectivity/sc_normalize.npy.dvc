@@ -1,0 +1,5 @@
+outs:
+- md5: 53a86d4b530ada9ce7266f27f92e52ac
+  size: 928
+  hash: md5
+  path: sc_normalize.npy

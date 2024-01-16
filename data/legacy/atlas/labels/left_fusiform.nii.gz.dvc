@@ -1,0 +1,5 @@
+outs:
+- md5: 04e446f6215bd116766425c154c6345e
+  size: 74657
+  hash: md5
+  path: left_fusiform.nii.gz

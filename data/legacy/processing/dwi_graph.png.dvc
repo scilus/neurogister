@@ -1,0 +1,5 @@
+outs:
+- md5: 699816c40e9e749558c19633dc97ca4f
+  size: 193230
+  hash: md5
+  path: dwi_graph.png

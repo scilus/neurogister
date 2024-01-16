@@ -1,0 +1,5 @@
+outs:
+- md5: 78d868e8ab2798f82625e707d8fea5f2
+  size: 76805
+  hash: md5
+  path: left_parahipocampal.nii.gz

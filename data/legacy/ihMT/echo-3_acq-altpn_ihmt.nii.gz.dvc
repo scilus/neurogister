@@ -1,0 +1,5 @@
+outs:
+- md5: 365b8d31cd2276cc6f5270281d4ec759
+  size: 75970
+  hash: md5
+  path: echo-3_acq-altpn_ihmt.nii.gz

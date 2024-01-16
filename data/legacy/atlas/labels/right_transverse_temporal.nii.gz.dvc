@@ -1,0 +1,5 @@
+outs:
+- md5: b184994c8f0f0f175dde77349cde2bf0
+  size: 75959
+  hash: md5
+  path: right_transverse_temporal.nii.gz

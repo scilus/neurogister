@@ -1,0 +1,5 @@
+outs:
+- md5: 905675413d0840d74c5f6dcd7b81b6f4
+  size: 392336
+  hash: md5
+  path: wmparc_filter_ana.nii.gz

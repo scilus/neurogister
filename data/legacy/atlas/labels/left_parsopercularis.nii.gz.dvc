@@ -1,0 +1,5 @@
+outs:
+- md5: 7e98ad15d434e6ecc526118eb1ffc35b
+  size: 79302
+  hash: md5
+  path: left_parsopercularis.nii.gz

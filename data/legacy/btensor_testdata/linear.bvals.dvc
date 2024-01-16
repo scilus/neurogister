@@ -1,0 +1,5 @@
+outs:
+- md5: 2bab771e609dce46d21907a54c962731
+  size: 1575
+  hash: md5
+  path: linear.bvals

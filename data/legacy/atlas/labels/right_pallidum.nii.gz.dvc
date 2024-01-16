@@ -1,0 +1,5 @@
+outs:
+- md5: 0fd9545ca96c0697e5caea18e7da9638
+  size: 76540
+  hash: md5
+  path: right_pallidum.nii.gz

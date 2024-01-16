@@ -1,0 +1,5 @@
+outs:
+- md5: 36d45da9366aa0bcca0b5c51f79ab738
+  size: 152
+  hash: md5
+  path: bundle_4_head_tail_offset.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 1517b6454a646567fb7c89b84651492f
+  size: 86984
+  hash: md5
+  path: right_superior_temporal.nii.gz

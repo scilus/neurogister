@@ -1,0 +1,5 @@
+outs:
+- md5: b7b41e6845a8e3b48fc41b0f3c0c3513
+  size: 75288
+  hash: md5
+  path: left_accumbens_area.nii.gz

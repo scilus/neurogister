@@ -1,0 +1,5 @@
+outs:
+- md5: 559e94a2150c52d74388807ca11403bf
+  size: 90200
+  hash: md5
+  path: left_superior_parietal.nii.gz

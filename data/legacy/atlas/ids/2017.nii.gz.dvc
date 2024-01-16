@@ -1,0 +1,5 @@
+outs:
+- md5: cc1db0a3de5e49b3aab51b6ab315bd3f
+  size: 80770
+  hash: md5
+  path: 2017.nii.gz

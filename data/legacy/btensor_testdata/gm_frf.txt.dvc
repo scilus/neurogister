@@ -1,0 +1,5 @@
+outs:
+- md5: 583e4e9c23a923a432b56d1e02933e24
+  size: 1300
+  hash: md5
+  path: gm_frf.txt

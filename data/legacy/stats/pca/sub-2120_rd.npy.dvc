@@ -1,0 +1,5 @@
+outs:
+- md5: 84fb2b0a1b32684ad92b393474eefffd
+  size: 496136
+  hash: md5
+  path: sub-2120_rd.npy

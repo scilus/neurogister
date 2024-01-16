@@ -1,0 +1,5 @@
+outs:
+- md5: 02b46789494b349744f20c7d958727d3
+  size: 82414
+  hash: md5
+  path: left_laterral_orbitofrontal.nii.gz

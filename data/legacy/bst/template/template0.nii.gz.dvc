@@ -1,0 +1,5 @@
+outs:
+- md5: 00384c5aaa226e7a746e31e7a4203a10
+  size: 1011723
+  hash: md5
+  path: template0.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 908f89566c4d2220c15271e9dbc84074
+  size: 4823
+  hash: md5
+  path: linear.bvecs

@@ -1,0 +1,5 @@
+outs:
+- md5: bc8f4fb7bc52de59b9c2bacf67bd3097
+  size: 7144680
+  hash: md5
+  path: decompose_afd_rd.h5

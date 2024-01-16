@@ -1,0 +1,5 @@
+outs:
+- md5: b96fddd1db37baa36ed8c293e8d42c5a
+  size: 941
+  hash: md5
+  path: bundle_4_wm.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: a3e95ad13b847c218fcb7912735c1cca
+  size: 79415
+  hash: md5
+  path: right_parstriangularis.nii.gz

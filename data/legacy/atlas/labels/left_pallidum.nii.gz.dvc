@@ -1,0 +1,5 @@
+outs:
+- md5: 96bab1b1f7533bfc96bb743da31a9591
+  size: 76367
+  hash: md5
+  path: left_pallidum.nii.gz

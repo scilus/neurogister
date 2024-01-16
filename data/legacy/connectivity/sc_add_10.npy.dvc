@@ -1,0 +1,5 @@
+outs:
+- md5: 4744c67efbd7ace31147142fd20982f1
+  size: 928
+  hash: md5
+  path: sc_add_10.npy

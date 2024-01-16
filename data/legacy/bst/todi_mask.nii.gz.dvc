@@ -1,0 +1,5 @@
+outs:
+- md5: dcdd68440d3059416bfc5ce5841cce26
+  size: 12028
+  hash: md5
+  path: todi_mask.nii.gz

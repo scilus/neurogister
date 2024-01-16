@@ -1,0 +1,5 @@
+outs:
+- md5: f84afcec71f54cb8ef4a319c166da409
+  size: 77106
+  hash: md5
+  path: midbrain.nii.gz

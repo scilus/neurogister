@@ -1,0 +1,5 @@
+outs:
+- md5: 35d2a30facaa8203ad5bd1beff1d4e98
+  size: 156
+  hash: md5
+  path: bundle_4_head_tail.nii.gz

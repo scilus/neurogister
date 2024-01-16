@@ -1,0 +1,5 @@
+outs:
+- md5: ab77241e17f1eb30bf03ca09306f034c
+  size: 33559
+  hash: md5
+  path: interface.nii.gz

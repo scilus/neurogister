@@ -1,0 +1,5 @@
+outs:
+- md5: 4b41822fb87358e5abb78bf17b788f92
+  size: 4465348
+  hash: md5
+  path: clusters.pkl

@@ -1,0 +1,5 @@
+outs:
+- md5: 3fb18c5363b8fcf4d379c681d5e1b4d2
+  size: 79425
+  hash: md5
+  path: left_thalamus_proper.nii.gz

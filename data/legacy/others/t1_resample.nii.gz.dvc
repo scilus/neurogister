@@ -1,0 +1,5 @@
+outs:
+- md5: e49ff3ceedfb43c78650faca341dc407
+  size: 656995
+  hash: md5
+  path: t1_resample.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 956d2df00f25f9a71201b4d08c8f0904
+  size: 587
+  hash: md5
+  path: gtm.json

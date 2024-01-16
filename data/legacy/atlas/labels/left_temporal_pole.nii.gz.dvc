@@ -1,0 +1,5 @@
+outs:
+- md5: fe44b508d2ae551a6f2b65afab2071fd
+  size: 77210
+  hash: md5
+  path: left_temporal_pole.nii.gz

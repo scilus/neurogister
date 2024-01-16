@@ -1,0 +1,5 @@
+outs:
+- md5: 3d55bc1161eb2d0b34ccb510c413f9a2
+  size: 3163
+  hash: md5
+  path: bundle_4_filtered.nii.gz

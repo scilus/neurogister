@@ -1,0 +1,5 @@
+outs:
+- md5: 00d1e4719b40c611aadf92068cfc749b
+  size: 86419
+  hash: md5
+  path: right_lateral_occipital.nii.gz

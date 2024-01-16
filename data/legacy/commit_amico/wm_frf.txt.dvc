@@ -1,0 +1,5 @@
+outs:
+- md5: 177d74535b0cdcbb4270d949d63622bd
+  size: 300
+  hash: md5
+  path: wm_frf.txt

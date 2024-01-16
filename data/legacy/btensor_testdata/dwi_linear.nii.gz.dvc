@@ -1,0 +1,5 @@
+outs:
+- md5: b7931dee5016d88aecd4605c8e0ddce3
+  size: 2421
+  hash: md5
+  path: dwi_linear.nii.gz

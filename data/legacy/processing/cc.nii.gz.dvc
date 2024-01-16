@@ -1,0 +1,5 @@
+outs:
+- md5: 7df2b3f9914ea03967a8c2a31ebc9569
+  size: 1086
+  hash: md5
+  path: cc.nii.gz

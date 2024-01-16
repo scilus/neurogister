@@ -1,0 +1,5 @@
+outs:
+- md5: 457d412d350a9b6b46c5cebd205f1dce
+  size: 1000
+  hash: md5
+  path: planar.bvals

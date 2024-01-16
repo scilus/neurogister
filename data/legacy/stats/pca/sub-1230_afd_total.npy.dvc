@@ -1,0 +1,5 @@
+outs:
+- md5: 458683f5388fd8420bb5829b0943b836
+  size: 496136
+  hash: md5
+  path: sub-1230_afd_total.npy

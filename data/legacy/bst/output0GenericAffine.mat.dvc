@@ -1,0 +1,5 @@
+outs:
+- md5: b456ceb67df2186ef7ffde0fad8959fe
+  size: 193
+  hash: md5
+  path: output0GenericAffine.mat

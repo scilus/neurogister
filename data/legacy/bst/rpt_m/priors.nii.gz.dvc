@@ -1,0 +1,5 @@
+outs:
+- md5: 4670e35cf3f5b32f3d0ee24b51b47a57
+  size: 7177740
+  hash: md5
+  path: priors.nii.gz

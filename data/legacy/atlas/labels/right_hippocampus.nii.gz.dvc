@@ -1,0 +1,5 @@
+outs:
+- md5: ca0a219073d03483411db8807f8dc229
+  size: 77398
+  hash: md5
+  path: right_hippocampus.nii.gz

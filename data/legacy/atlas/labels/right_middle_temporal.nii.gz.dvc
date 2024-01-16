@@ -1,0 +1,5 @@
+outs:
+- md5: 50a7740124c5c4da9da749bd57e3ad71
+  size: 86378
+  hash: md5
+  path: right_middle_temporal.nii.gz

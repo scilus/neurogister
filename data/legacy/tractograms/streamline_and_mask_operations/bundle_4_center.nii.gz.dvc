@@ -1,0 +1,5 @@
+outs:
+- md5: 19872779b4250bf2eb03cb9f6fabc716
+  size: 152
+  hash: md5
+  path: bundle_4_center.nii.gz

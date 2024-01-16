@@ -1,0 +1,5 @@
+outs:
+- md5: f21f138353a01de4270f5437ce0220e6
+  size: 88336
+  hash: md5
+  path: right_precentral.nii.gz

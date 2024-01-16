@@ -1,0 +1,5 @@
+outs:
+- md5: 0c8f453be093961e9e8c80475221562d
+  size: 928
+  hash: md5
+  path: sc.npy

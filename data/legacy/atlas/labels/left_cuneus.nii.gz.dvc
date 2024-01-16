@@ -1,0 +1,5 @@
+outs:
+- md5: 1fed933782d9fcef8f33451d2cff3103
+  size: 79277
+  hash: md5
+  path: left_cuneus.nii.gz

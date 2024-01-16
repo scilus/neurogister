@@ -1,0 +1,5 @@
+outs:
+- md5: 03dc1d16b39b89394a181354db60f8d5
+  size: 11340
+  hash: md5
+  path: dwi_SNR.json

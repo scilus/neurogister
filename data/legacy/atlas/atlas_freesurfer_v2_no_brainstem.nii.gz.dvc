@@ -1,0 +1,5 @@
+outs:
+- md5: 41d40795d74662d93745ec8aeec1c512
+  size: 205935
+  hash: md5
+  path: atlas_freesurfer_v2_no_brainstem.nii.gz

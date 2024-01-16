@@ -1,0 +1,5 @@
+outs:
+- md5: ce009f489704fe858ccebcaeadcbcf24
+  size: 630356
+  hash: md5
+  path: mni_masked_2x2x2.nii.gz

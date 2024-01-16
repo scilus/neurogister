@@ -1,0 +1,5 @@
+outs:
+- md5: 10eaddf16787f79344f3bccf3d526fc1
+  size: 376906
+  hash: md5
+  path: md.nii.gz

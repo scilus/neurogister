@@ -1,0 +1,5 @@
+outs:
+- md5: 94a9c4404ff82158ca188e9abad3a059
+  size: 228
+  hash: md5
+  path: mask.npy

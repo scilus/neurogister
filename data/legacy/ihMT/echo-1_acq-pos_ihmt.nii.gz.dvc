@@ -1,0 +1,5 @@
+outs:
+- md5: d4f4c14c44d1c91c11e6ce0fbaeae94c
+  size: 75784
+  hash: md5
+  path: echo-1_acq-pos_ihmt.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 95e415fafe60cb7b7186e5005ecf88a6
+  size: 76761
+  hash: md5
+  path: right_entorhinal.nii.gz

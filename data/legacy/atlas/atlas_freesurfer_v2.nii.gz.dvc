@@ -1,0 +1,5 @@
+outs:
+- md5: 89d17cf1830256e1e89cc5eb8b973dba
+  size: 125389
+  hash: md5
+  path: atlas_freesurfer_v2.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 7465adf4114544457aee828ebc69c933
+  size: 76881
+  hash: md5
+  path: left_banks_superior_temporal.nii.gz

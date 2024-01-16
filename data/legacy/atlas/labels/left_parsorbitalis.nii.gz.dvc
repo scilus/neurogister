@@ -1,0 +1,5 @@
+outs:
+- md5: 35ca5bd080e290dff6520627fd9b081c
+  size: 77450
+  hash: md5
+  path: left_parsorbitalis.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 4c5b86b4a40a07c11816b77c09c52a00
+  size: 100
+  hash: md5
+  path: nfrf.txt

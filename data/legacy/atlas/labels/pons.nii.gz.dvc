@@ -1,0 +1,5 @@
+outs:
+- md5: 1e39a35564ea0af0abcaa8dd9c85c7c9
+  size: 80719
+  hash: md5
+  path: pons.nii.gz

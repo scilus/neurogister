@@ -1,0 +1,5 @@
+outs:
+- md5: d5f4091ac72b70a9715359ad766ef849
+  size: 3052
+  hash: md5
+  path: spherical.bvecs

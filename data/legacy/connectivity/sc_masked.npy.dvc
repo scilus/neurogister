@@ -1,0 +1,5 @@
+outs:
+- md5: b40d066dd9161c199d586c736d8c77a0
+  size: 928
+  hash: md5
+  path: sc_masked.npy

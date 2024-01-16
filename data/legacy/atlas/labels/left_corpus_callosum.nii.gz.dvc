@@ -1,0 +1,5 @@
+outs:
+- md5: 14a67b2ef034b0002cf6f12018eca513
+  size: 74664
+  hash: md5
+  path: left_corpus_callosum.nii.gz

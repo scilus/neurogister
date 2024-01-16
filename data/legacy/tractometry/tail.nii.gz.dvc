@@ -1,0 +1,5 @@
+outs:
+- md5: 748c54d90c0eec742ccf631e87b2e115
+  size: 312051
+  hash: md5
+  path: tail.nii.gz

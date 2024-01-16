@@ -1,0 +1,5 @@
+outs:
+- md5: 1d62b0f71f4f3fa515a123e08c16281f
+  size: 78816
+  hash: md5
+  path: left_posteriorcingulate.nii.gz

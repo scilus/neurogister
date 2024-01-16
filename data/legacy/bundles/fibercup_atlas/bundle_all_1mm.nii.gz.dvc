@@ -1,0 +1,5 @@
+outs:
+- md5: 034f76d0cf3d588636dba159508c3610
+  size: 53814
+  hash: md5
+  path: bundle_all_1mm.nii.gz

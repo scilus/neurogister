@@ -1,0 +1,5 @@
+outs:
+- md5: e3acf7c4001664257be69900220d5f59
+  size: 312825
+  hash: md5
+  path: head.nii.gz

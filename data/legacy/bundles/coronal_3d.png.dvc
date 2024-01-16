@@ -1,0 +1,5 @@
+outs:
+- md5: 59f247bf292e5d4774d83b84f4606d80
+  size: 16625
+  hash: md5
+  path: coronal_3d.png

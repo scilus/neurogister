@@ -1,0 +1,5 @@
+outs:
+- md5: 20fd11a21b00664f342c9c79e05a89f1
+  size: 62118
+  hash: md5
+  path: out_lw_tdi.nii.gz

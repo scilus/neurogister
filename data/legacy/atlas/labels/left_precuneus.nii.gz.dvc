@@ -1,0 +1,5 @@
+outs:
+- md5: 6e2c15d1b0fb463af457055e6e34d4b1
+  size: 86409
+  hash: md5
+  path: left_precuneus.nii.gz

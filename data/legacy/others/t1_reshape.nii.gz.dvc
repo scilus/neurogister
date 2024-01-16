@@ -1,0 +1,5 @@
+outs:
+- md5: c3fb11528a64f214c3c9dc9c5646c6c3
+  size: 2555670
+  hash: md5
+  path: t1_reshape.nii.gz

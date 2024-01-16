@@ -1,0 +1,5 @@
+outs:
+- md5: 510b8357cd16b5b8c89facb119cc44d5
+  size: 308830
+  hash: md5
+  path: map_exclude_corr.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: e5169cfc84bfc6bda15b5e5d0b26fded
+  size: 955
+  hash: md5
+  path: metric_label.json

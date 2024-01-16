@@ -1,0 +1,5 @@
+outs:
+- md5: 8ab458c4999c2fbe921e0f4190185af3
+  size: 77546
+  hash: md5
+  path: left_ventraldc.nii.gz

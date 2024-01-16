@@ -1,0 +1,5 @@
+outs:
+- md5: 0a801b1ef8cf51079bda95db76c13f12
+  size: 500
+  hash: md5
+  path: bundle_0_measures.json

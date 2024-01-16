@@ -1,0 +1,14 @@
+/planar.bvals
+/csf_frf.txt
+/linear.bvals
+/dwi_spherical.nii.gz
+/spherical.bvecs
+/planar.bvecs
+/fa.nii.gz
+/wm_frf.txt
+/linear.bvecs
+/dwi_linear.nii.gz
+/dwi_planar.nii.gz
+/md.nii.gz
+/gm_frf.txt
+/spherical.bvals

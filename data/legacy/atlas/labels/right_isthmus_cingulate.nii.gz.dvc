@@ -1,0 +1,5 @@
+outs:
+- md5: 48d147b524b89188c7a700b1ad3da58b
+  size: 77785
+  hash: md5
+  path: right_isthmus_cingulate.nii.gz

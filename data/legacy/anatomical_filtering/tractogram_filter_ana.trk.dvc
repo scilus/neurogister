@@ -1,0 +1,5 @@
+outs:
+- md5: e7622c370510b2e534fa26957dc36457
+  size: 29788652
+  hash: md5
+  path: tractogram_filter_ana.trk

@@ -1,0 +1,5 @@
+outs:
+- md5: 4325deb710d676f5402f1246d351e86e
+  size: 20870
+  hash: md5
+  path: sagittal_3d.png

@@ -1,0 +1,5 @@
+outs:
+- md5: 321b04da4103d42c7be1ca95261aced6
+  size: 8177502
+  hash: md5
+  path: dwi_crop_1000.nii.gz

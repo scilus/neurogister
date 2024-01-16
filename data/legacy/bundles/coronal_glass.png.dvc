@@ -1,0 +1,5 @@
+outs:
+- md5: 5e3d7cb3f38d9d5ed0af70e54dfd54bd
+  size: 79202
+  hash: md5
+  path: coronal_glass.png

@@ -1,0 +1,5 @@
+outs:
+- md5: fe183e5dab440b9ec694f011e7e06a00
+  size: 97309
+  hash: md5
+  path: right_cerebellum_cortex.nii.gz

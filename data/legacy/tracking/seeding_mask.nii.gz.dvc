@@ -1,0 +1,5 @@
+outs:
+- md5: 752a6881541704e8b2eaff5556a04784
+  size: 20937
+  hash: md5
+  path: seeding_mask.nii.gz

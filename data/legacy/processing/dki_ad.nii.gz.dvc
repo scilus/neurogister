@@ -1,0 +1,5 @@
+outs:
+- md5: fd9f8feb38aa08ed438f94b49574aa0f
+  size: 19286
+  hash: md5
+  path: dki_ad.nii.gz

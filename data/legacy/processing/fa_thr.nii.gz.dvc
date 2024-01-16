@@ -1,0 +1,5 @@
+outs:
+- md5: e40665be7062cce86ea589d931d3f07f
+  size: 5997
+  hash: md5
+  path: fa_thr.nii.gz

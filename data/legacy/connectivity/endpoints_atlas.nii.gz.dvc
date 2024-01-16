@@ -1,0 +1,5 @@
+outs:
+- md5: e07e4d4ce0f04e072e94784d5ea7051e
+  size: 3521
+  hash: md5
+  path: endpoints_atlas.nii.gz

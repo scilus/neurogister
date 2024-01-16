@@ -1,0 +1,5 @@
+outs:
+- md5: 61ce76e2f2861ec50e79b3b03f375a06
+  size: 99191
+  hash: md5
+  path: right_superior_frontral.nii.gz

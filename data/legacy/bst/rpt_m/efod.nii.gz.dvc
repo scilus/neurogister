@@ -1,0 +1,5 @@
+outs:
+- md5: 430f543f9d26a6e225ffdaa04c9293c8
+  size: 10222664
+  hash: md5
+  path: efod.nii.gz

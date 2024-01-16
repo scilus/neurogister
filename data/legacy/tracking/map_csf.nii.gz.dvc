@@ -1,0 +1,5 @@
+outs:
+- md5: fd3373e614c7d954d74f1a919bf39395
+  size: 447223
+  hash: md5
+  path: map_csf.nii.gz

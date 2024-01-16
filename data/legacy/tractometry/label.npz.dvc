@@ -1,0 +1,5 @@
+outs:
+- md5: bede0a27005c62c9e5063de8906ac62f
+  size: 50733
+  hash: md5
+  path: label.npz

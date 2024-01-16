@@ -1,0 +1,5 @@
+outs:
+- md5: 6560b63d8ddd8983b33ca769f8c9a78a
+  size: 85257
+  hash: md5
+  path: left_postcentral.nii.gz

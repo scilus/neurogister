@@ -1,0 +1,5 @@
+outs:
+- md5: ef0271639d3d6988ac3ac8ff118c0b10
+  size: 18454546
+  hash: md5
+  path: gyri_fanning.tck

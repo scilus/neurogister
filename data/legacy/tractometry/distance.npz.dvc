@@ -1,0 +1,5 @@
+outs:
+- md5: aa430fe9f3fe898ec0761e65b155071f
+  size: 752152
+  hash: md5
+  path: distance.npz

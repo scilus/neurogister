@@ -1,0 +1,5 @@
+outs:
+- md5: 1a9cfd5131f6ad623b51ddeb46eff91c
+  size: 928
+  hash: md5
+  path: afd_max.npy

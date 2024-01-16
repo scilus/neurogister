@@ -1,0 +1,5 @@
+outs:
+- md5: 033f919e28c26d0b368b88de2b1fff43
+  size: 942690
+  hash: md5
+  path: template_lin.nii.gz

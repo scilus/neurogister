@@ -1,0 +1,5 @@
+outs:
+- md5: 063d6862f7d24664ab2dac0a9a6b7bdc
+  size: 1300
+  hash: md5
+  path: csf_frf.txt

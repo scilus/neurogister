@@ -1,0 +1,5 @@
+outs:
+- md5: 83b21d15a63fe98794ad420c0c50e4c2
+  size: 31
+  hash: md5
+  path: affine.txt

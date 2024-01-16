@@ -1,0 +1,5 @@
+outs:
+- md5: 1243607d1ab3576dd7f5800ad747249a
+  size: 77990
+  hash: md5
+  path: oblongata.nii.gz

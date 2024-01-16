@@ -1,0 +1,5 @@
+outs:
+- md5: d97125979ed9640db767726af34cb29c
+  size: 207946
+  hash: md5
+  path: atlas_freesurfer_v2_single_brainstem_dil.nii.gz

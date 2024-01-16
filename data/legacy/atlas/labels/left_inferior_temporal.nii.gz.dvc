@@ -1,0 +1,5 @@
+outs:
+- md5: cc3493349e6833f2c1ab56d55ee7e3d6
+  size: 85854
+  hash: md5
+  path: left_inferior_temporal.nii.gz

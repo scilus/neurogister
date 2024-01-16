@@ -1,0 +1,5 @@
+outs:
+- md5: 97a1ffca75c1cb9acc4fdd6d5d8eccbe
+  size: 85784
+  hash: md5
+  path: 2009.nii.gz

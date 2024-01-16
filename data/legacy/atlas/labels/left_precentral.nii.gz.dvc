@@ -1,0 +1,5 @@
+outs:
+- md5: 05c272c6e0e5fa1e3dab4534c9612ce9
+  size: 87839
+  hash: md5
+  path: left_precentral.nii.gz

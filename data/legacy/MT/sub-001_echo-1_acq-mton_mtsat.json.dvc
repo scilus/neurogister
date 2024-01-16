@@ -1,0 +1,5 @@
+outs:
+- md5: b9bfd07627c18df492ac5728c559036d
+  size: 1964
+  hash: md5
+  path: sub-001_echo-1_acq-mton_mtsat.json

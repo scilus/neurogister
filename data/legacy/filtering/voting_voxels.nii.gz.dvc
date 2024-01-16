@@ -1,0 +1,5 @@
+outs:
+- md5: 9f9a0e0a232f7b09dbb68fc29208d97f
+  size: 1701
+  hash: md5
+  path: voting_voxels.nii.gz

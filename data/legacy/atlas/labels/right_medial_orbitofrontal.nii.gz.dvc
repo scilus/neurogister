@@ -1,0 +1,5 @@
+outs:
+- md5: 57c12577a63af37fa0c2ae419df90f0d
+  size: 81280
+  hash: md5
+  path: right_medial_orbitofrontal.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 46ecf49d5f7bb55bcc03fb7564b1ea24
+  size: 1097
+  hash: md5
+  path: mask_resample.nii.gz

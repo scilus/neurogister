@@ -1,0 +1,5 @@
+outs:
+- md5: 9df1affb07bc77017f977863d65bcffb
+  size: 152708
+  hash: md5
+  path: bundle_4_filtered_no_loops.trk

@@ -1,0 +1,5 @@
+outs:
+- md5: 5f0979ab2d4ffc2b08f01da511da28ac
+  size: 496136
+  hash: md5
+  path: sub-1108_afd_fixel.npy

@@ -1,0 +1,5 @@
+outs:
+- md5: f7e4608c109ae11efc6a9d6b0cde1fdd
+  size: 49
+  hash: md5
+  path: success.txt

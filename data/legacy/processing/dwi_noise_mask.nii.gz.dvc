@@ -1,0 +1,5 @@
+outs:
+- md5: 5ad8be732e71cc55a200e5ca02d76bc6
+  size: 18200
+  hash: md5
+  path: dwi_noise_mask.nii.gz

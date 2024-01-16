@@ -1,0 +1,5 @@
+outs:
+- md5: ffacf0ae427d151c6b4cbc91a6998069
+  size: 85483
+  hash: md5
+  path: right_postcentral.nii.gz

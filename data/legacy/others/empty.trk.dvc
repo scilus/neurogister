@@ -1,0 +1,5 @@
+outs:
+- md5: f2aace642173766bec0dac40ffc5325c
+  size: 1000
+  hash: md5
+  path: empty.trk

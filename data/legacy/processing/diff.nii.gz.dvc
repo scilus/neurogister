@@ -1,0 +1,5 @@
+outs:
+- md5: 6e607c0efea56d92b0d812d6ba450c4b
+  size: 3889
+  hash: md5
+  path: diff.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: e1307c6a5cf1d20fea2aa3818a5fe947
+  size: 928
+  hash: md5
+  path: vol.npy

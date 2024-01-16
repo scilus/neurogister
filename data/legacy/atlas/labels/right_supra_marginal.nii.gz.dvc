@@ -1,0 +1,5 @@
+outs:
+- md5: 3801af8a1f9fc86cbaa7be6f5f9b50db
+  size: 86193
+  hash: md5
+  path: right_supra_marginal.nii.gz

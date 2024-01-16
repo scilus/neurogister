@@ -1,0 +1,5 @@
+outs:
+- md5: 430a41051a4b27b97fecb3ef16de369a
+  size: 77838
+  hash: md5
+  path: left_isthmus_cingulate.nii.gz

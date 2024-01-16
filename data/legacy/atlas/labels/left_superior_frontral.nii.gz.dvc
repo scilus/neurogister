@@ -1,0 +1,5 @@
+outs:
+- md5: ddba47c1af6c880cde19c9f2583dbb5a
+  size: 100504
+  hash: md5
+  path: left_superior_frontral.nii.gz

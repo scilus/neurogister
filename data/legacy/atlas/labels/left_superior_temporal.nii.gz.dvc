@@ -1,0 +1,5 @@
+outs:
+- md5: 79aad327db1fd574067327bd7e4a08a7
+  size: 87222
+  hash: md5
+  path: left_superior_temporal.nii.gz

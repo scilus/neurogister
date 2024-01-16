@@ -1,0 +1,5 @@
+outs:
+- md5: b3cad525f9e5195b45bac10a808deebe
+  size: 25181
+  hash: md5
+  path: seed.nii.gz

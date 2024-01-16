@@ -1,0 +1,5 @@
+outs:
+- md5: 1d77163fbfe60cdf8a1ec8dcf65ea9a7
+  size: 376149
+  hash: md5
+  path: b0_mean_n4.nii.gz

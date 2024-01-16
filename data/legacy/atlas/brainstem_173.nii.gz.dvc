@@ -1,0 +1,5 @@
+outs:
+- md5: 03fbc8fa50d48a5651e483fa09bbb72a
+  size: 15346
+  hash: md5
+  path: brainstem_173.nii.gz

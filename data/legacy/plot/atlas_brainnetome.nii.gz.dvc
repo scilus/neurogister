@@ -1,0 +1,5 @@
+outs:
+- md5: b60f70be17dc108a17727c8b52a8757f
+  size: 361371
+  hash: md5
+  path: atlas_brainnetome.nii.gz

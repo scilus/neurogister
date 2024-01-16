@@ -1,0 +1,5 @@
+outs:
+- md5: ba10ac5319521b194f09cb78fdfb9571
+  size: 79180
+  hash: md5
+  path: right_thalamus_proper.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 55c2ce6447f390a86012b80781ad3ebe
+  size: 75778
+  hash: md5
+  path: left_amygdala.nii.gz

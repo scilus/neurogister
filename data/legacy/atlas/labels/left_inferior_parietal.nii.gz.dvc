@@ -1,0 +1,5 @@
+outs:
+- md5: 6fb3197971285b456a55b2f34a865dcb
+  size: 86205
+  hash: md5
+  path: left_inferior_parietal.nii.gz

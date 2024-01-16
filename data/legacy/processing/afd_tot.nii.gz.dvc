@@ -1,0 +1,5 @@
+outs:
+- md5: 36b60e1be95250bbb34f6740eedd0818
+  size: 383445
+  hash: md5
+  path: afd_tot.nii.gz

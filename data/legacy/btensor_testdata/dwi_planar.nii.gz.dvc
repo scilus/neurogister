@@ -1,0 +1,5 @@
+outs:
+- md5: b04b7f4b7e84cfd7de47746ba61a109b
+  size: 1593
+  hash: md5
+  path: dwi_planar.nii.gz

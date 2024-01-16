@@ -1,0 +1,5 @@
+outs:
+- md5: c2b9cf912edc2dccdc44154f9004dfa1
+  size: 496136
+  hash: md5
+  path: sub-1005_rd.npy

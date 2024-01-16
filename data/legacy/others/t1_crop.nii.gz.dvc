@@ -1,0 +1,5 @@
+outs:
+- md5: 4c22510d60989137c2f7de020319a786
+  size: 2506260
+  hash: md5
+  path: t1_crop.nii.gz

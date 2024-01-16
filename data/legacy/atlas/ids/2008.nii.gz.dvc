@@ -1,0 +1,5 @@
+outs:
+- md5: bc35ccf377702fb91ae6aed5c933a8f9
+  size: 87073
+  hash: md5
+  path: 2008.nii.gz

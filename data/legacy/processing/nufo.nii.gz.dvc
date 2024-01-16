@@ -1,0 +1,5 @@
+outs:
+- md5: 1a33fda9be1149b695d79a33febb67c5
+  size: 57015
+  hash: md5
+  path: nufo.nii.gz

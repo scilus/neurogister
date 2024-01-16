@@ -1,0 +1,5 @@
+outs:
+- md5: bbab53010854850d5bf76c0681b534af
+  size: 75547
+  hash: md5
+  path: echo-2_acq-neg_ihmt.nii.gz

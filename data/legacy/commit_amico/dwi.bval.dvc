@@ -1,0 +1,5 @@
+outs:
+- md5: 160c236e78571e4d34b1f96d1d3d6015
+  size: 1600
+  hash: md5
+  path: dwi.bval

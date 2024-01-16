@@ -1,0 +1,5 @@
+outs:
+- md5: 38d57a41a43979a50cd9cb540e46144a
+  size: 75980
+  hash: md5
+  path: echo-3_acq-mtoff_ihmt.nii.gz

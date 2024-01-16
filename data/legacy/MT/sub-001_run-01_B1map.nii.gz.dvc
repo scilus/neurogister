@@ -1,0 +1,5 @@
+outs:
+- md5: 24ca569c7783e37d75fba076f5c560c2
+  size: 262549
+  hash: md5
+  path: sub-001_run-01_B1map.nii.gz

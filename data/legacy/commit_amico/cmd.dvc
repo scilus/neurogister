@@ -1,0 +1,5 @@
+outs:
+- md5: 8ff32d38a9aed8a9d4c0cbb5ceee02de
+  size: 240
+  hash: md5
+  path: cmd

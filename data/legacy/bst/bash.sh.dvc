@@ -1,0 +1,5 @@
+outs:
+- md5: 49377855c27aff33eed767e77afe0a46
+  size: 774
+  hash: md5
+  path: bash.sh

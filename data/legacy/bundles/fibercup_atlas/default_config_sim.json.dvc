@@ -1,0 +1,5 @@
+outs:
+- md5: c96c82296569afe566013a31490edd8e
+  size: 1218
+  hash: md5
+  path: default_config_sim.json

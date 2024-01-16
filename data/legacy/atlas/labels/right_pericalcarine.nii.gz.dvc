@@ -1,0 +1,5 @@
+outs:
+- md5: 76a260284fd08d46304a13d899cf2dfb
+  size: 77711
+  hash: md5
+  path: right_pericalcarine.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 7abfd1d0bd344af507865eed5ea535ec
+  size: 328
+  hash: md5
+  path: sc_reo_fake.npy

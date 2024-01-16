@@ -1,0 +1,5 @@
+outs:
+- md5: 1ee1b2138acf6d6fe1624577ce38acd9
+  size: 76116
+  hash: md5
+  path: left_transverse_temporal.nii.gz

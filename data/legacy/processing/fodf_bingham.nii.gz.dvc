@@ -1,0 +1,5 @@
+outs:
+- md5: b9b81bfe11d7ec6ff0aa18584c922b73
+  size: 16634844
+  hash: md5
+  path: fodf_bingham.nii.gz

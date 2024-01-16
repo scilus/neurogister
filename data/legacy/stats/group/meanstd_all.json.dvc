@@ -1,0 +1,5 @@
+outs:
+- md5: 263627e1f11003985b2938e55fcf3cde
+  size: 1314055
+  hash: md5
+  path: meanstd_all.json

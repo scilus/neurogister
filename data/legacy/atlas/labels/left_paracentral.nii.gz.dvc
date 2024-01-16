@@ -1,0 +1,5 @@
+outs:
+- md5: 7674f0df2af668e7baf1714efa989c79
+  size: 80208
+  hash: md5
+  path: left_paracentral.nii.gz

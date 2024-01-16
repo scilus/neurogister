@@ -1,0 +1,5 @@
+outs:
+- md5: 4d9c6c50b4a988f6861168de1276d1c9
+  size: 175230
+  hash: md5
+  path: mask_wm.nii.gz

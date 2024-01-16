@@ -1,0 +1,5 @@
+outs:
+- md5: 194a7b0cf0fc612304717e93a647c0fc
+  size: 90
+  hash: md5
+  path: 1000.bval

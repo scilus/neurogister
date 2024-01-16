@@ -1,0 +1,5 @@
+outs:
+- md5: a0483573e8247d24fafce1c4abc74ff1
+  size: 76857
+  hash: md5
+  path: 1001.nii.gz

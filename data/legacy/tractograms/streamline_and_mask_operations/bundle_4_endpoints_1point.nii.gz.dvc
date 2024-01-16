@@ -1,0 +1,5 @@
+outs:
+- md5: 736a5dd38f22c4ac63c5691c7c5ddfa0
+  size: 444
+  hash: md5
+  path: bundle_4_endpoints_1point.nii.gz

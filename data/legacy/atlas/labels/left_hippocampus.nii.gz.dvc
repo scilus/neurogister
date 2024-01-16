@@ -1,0 +1,5 @@
+outs:
+- md5: 85bca44c33f2de81985bb0b8c06a6c1b
+  size: 77423
+  hash: md5
+  path: left_hippocampus.nii.gz

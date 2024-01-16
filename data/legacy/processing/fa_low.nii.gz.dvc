@@ -1,0 +1,5 @@
+outs:
+- md5: 57910889963afa53c757d2047a57e2de
+  size: 25105
+  hash: md5
+  path: fa_low.nii.gz

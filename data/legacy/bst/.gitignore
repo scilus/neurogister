@@ -1,0 +1,12 @@
+/bash.sh
+/rpt_m_warp.trk
+/lw_todi_sh.nii.gz
+/fa.nii.gz
+/output0GenericAffine.mat
+/rpt_m_lin.trk
+/template_lin.nii.gz
+/todi_mask.nii.gz
+/fodf.nii.gz
+/mask.nii.gz
+/out_lw_tdi.nii.gz
+/output1InverseWarp.nii.gz

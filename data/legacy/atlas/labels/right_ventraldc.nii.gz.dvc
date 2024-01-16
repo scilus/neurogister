@@ -1,0 +1,5 @@
+outs:
+- md5: 3b118d219af57c35c60f5a33a6b7a0dc
+  size: 77432
+  hash: md5
+  path: right_ventraldc.nii.gz

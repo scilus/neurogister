@@ -1,0 +1,5 @@
+outs:
+- md5: 4ee808cf56287184caa1b55280b0d9b8
+  size: 77163
+  hash: md5
+  path: right_rostral_anterior_cingulate.nii.gz

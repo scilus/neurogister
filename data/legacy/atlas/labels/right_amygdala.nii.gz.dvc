@@ -1,0 +1,5 @@
+outs:
+- md5: ac6ab0221e909e34ba3f032c7de12cfa
+  size: 75786
+  hash: md5
+  path: right_amygdala.nii.gz

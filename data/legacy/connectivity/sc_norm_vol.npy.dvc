@@ -1,0 +1,5 @@
+outs:
+- md5: acd4664bed706a731dbbc31c49927832
+  size: 928
+  hash: md5
+  path: sc_norm_vol.npy

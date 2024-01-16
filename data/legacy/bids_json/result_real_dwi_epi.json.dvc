@@ -1,0 +1,5 @@
+outs:
+- md5: 22adcf1437117b643cf292a82e7f7552
+  size: 651
+  hash: md5
+  path: result_real_dwi_epi.json

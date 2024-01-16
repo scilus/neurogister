@@ -1,0 +1,5 @@
+outs:
+- md5: c3383bee51f8705809beb6e4441253b1
+  size: 440
+  hash: md5
+  path: atlas_brainnetome.json

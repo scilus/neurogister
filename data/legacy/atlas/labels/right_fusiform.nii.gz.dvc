@@ -1,0 +1,5 @@
+outs:
+- md5: 7c8ee9902f539c20a96160e757eb6329
+  size: 84792
+  hash: md5
+  path: right_fusiform.nii.gz

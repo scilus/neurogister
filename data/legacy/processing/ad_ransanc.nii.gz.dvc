@@ -1,0 +1,5 @@
+outs:
+- md5: 6a6412a16f5f2dae240756515a5bec59
+  size: 377012
+  hash: md5
+  path: ad_ransanc.nii.gz

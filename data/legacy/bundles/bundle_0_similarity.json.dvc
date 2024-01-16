@@ -1,0 +1,5 @@
+outs:
+- md5: fbbd8d987f17d0d99083561e7919ad2b
+  size: 728
+  hash: md5
+  path: bundle_0_similarity.json

@@ -1,0 +1,5 @@
+outs:
+- md5: d111a990a45f02f6d0e8f6c18f7a7a3c
+  size: 928
+  hash: md5
+  path: sc_norm.npy

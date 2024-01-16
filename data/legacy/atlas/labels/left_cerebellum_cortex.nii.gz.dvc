@@ -1,0 +1,5 @@
+outs:
+- md5: db89bc3fe6fce02faf41fa74e7999427
+  size: 97628
+  hash: md5
+  path: left_cerebellum_cortex.nii.gz

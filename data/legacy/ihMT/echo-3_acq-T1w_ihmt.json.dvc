@@ -1,0 +1,5 @@
+outs:
+- md5: 819f7a6db4096abeef4ac59bcff1321c
+  size: 1933
+  hash: md5
+  path: echo-3_acq-T1w_ihmt.json

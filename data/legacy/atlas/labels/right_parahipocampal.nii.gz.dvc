@@ -1,0 +1,5 @@
+outs:
+- md5: 1379804e4a04d97e4a01839406378016
+  size: 76943
+  hash: md5
+  path: right_parahipocampal.nii.gz

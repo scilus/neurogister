@@ -1,0 +1,5 @@
+outs:
+- md5: 5cc82679babde1ea298a461b48db896b
+  size: 8027923
+  hash: md5
+  path: fodf.nii.gz

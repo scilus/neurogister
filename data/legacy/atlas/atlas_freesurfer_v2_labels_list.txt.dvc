@@ -1,0 +1,5 @@
+outs:
+- md5: 552ed473200544782bb7488b07b14404
+  size: 414
+  hash: md5
+  path: atlas_freesurfer_v2_labels_list.txt

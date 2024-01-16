@@ -1,0 +1,5 @@
+outs:
+- md5: ea6c119442d23a25033de19b55c607d3
+  size: 4885679
+  hash: md5
+  path: mni_masked.nii.gz

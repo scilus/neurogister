@@ -1,0 +1,5 @@
+outs:
+- md5: 32e5a710e6c43075fb5b6376bc8a2547
+  size: 401
+  hash: md5
+  path: transformation_rigid.txt

@@ -1,0 +1,5 @@
+outs:
+- md5: 1a20ba38602d806b01f491790b8d97cf
+  size: 266180
+  hash: md5
+  path: afd_test.nii.gz

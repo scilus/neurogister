@@ -1,0 +1,5 @@
+outs:
+- md5: 80561578ffaf5b8f032d0ad59fa4742a
+  size: 82543
+  hash: md5
+  path: left_lingual.nii.gz

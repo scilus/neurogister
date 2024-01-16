@@ -1,0 +1,5 @@
+outs:
+- md5: 985838402a9599adf00d95e1f9701226
+  size: 5880
+  hash: md5
+  path: centroids.trk

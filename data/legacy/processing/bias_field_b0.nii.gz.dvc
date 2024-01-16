@@ -1,0 +1,5 @@
+outs:
+- md5: f1a95258cf0aed8b5d1f4f5c6f66a526
+  size: 700880
+  hash: md5
+  path: bias_field_b0.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 47bcfaefc2bb51597a7263428eec5bca
+  size: 79207
+  hash: md5
+  path: right_cuneus.nii.gz

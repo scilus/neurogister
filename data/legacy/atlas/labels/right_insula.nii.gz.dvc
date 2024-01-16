@@ -1,0 +1,5 @@
+outs:
+- md5: 05df3616b290105aa8af5629ccf0441f
+  size: 83325
+  hash: md5
+  path: right_insula.nii.gz

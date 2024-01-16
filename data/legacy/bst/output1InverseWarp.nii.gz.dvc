@@ -1,0 +1,5 @@
+outs:
+- md5: b757a2623d586c7898013ae91b08bc7b
+  size: 7452565
+  hash: md5
+  path: output1InverseWarp.nii.gz

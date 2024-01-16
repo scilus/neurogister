@@ -1,0 +1,5 @@
+outs:
+- md5: 0241a3a9808e38bb9353c1f68d46cd10
+  size: 3235724
+  hash: md5
+  path: bundle_all_1mm_inliers.trk

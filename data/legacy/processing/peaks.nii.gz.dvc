@@ -1,0 +1,5 @@
+outs:
+- md5: 22fbd28eba70db4ecfaa9dc39a855094
+  size: 2922632
+  hash: md5
+  path: peaks.nii.gz

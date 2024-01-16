@@ -1,0 +1,5 @@
+outs:
+- md5: 686503e309d3e6c97b1b53984ca2283e
+  size: 6080273
+  hash: md5
+  path: fa_flip.nii.gz

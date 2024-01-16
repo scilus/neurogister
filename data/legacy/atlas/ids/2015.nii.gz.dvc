@@ -1,0 +1,5 @@
+outs:
+- md5: 63ac7a87614981b0f3c2f0ac7d6da739
+  size: 86361
+  hash: md5
+  path: 2015.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 34447f5d4f75dd1d150921bb64983b76
+  size: 1068
+  hash: md5
+  path: small_roi_gm_mask.nii.gz

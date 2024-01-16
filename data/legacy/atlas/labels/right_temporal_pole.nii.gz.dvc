@@ -1,0 +1,5 @@
+outs:
+- md5: 861bfaa6fb9d92f4b6066a92a8b8519e
+  size: 77038
+  hash: md5
+  path: right_temporal_pole.nii.gz

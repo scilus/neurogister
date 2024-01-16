@@ -1,0 +1,5 @@
+outs:
+- md5: 62bbd931e94a04796effd1ee78e58090
+  size: 248690
+  hash: md5
+  path: map_exclude.nii.gz

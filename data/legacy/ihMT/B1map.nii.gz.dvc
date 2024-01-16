@@ -1,0 +1,5 @@
+outs:
+- md5: c3058b500ac5c49e9eb840b98e04708c
+  size: 75207
+  hash: md5
+  path: B1map.nii.gz

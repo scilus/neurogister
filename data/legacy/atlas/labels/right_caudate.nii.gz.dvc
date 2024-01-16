@@ -1,0 +1,5 @@
+outs:
+- md5: 6fe16a85a37c0e51fb7bd5ab31275c61
+  size: 78087
+  hash: md5
+  path: right_caudate.nii.gz

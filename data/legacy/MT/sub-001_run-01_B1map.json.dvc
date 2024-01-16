@@ -1,0 +1,5 @@
+outs:
+- md5: 6bd82bf805c7de95add047837eea9fd7
+  size: 1804
+  hash: md5
+  path: sub-001_run-01_B1map.json

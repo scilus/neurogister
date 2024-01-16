@@ -1,0 +1,5 @@
+outs:
+- md5: 56a5233cb36c484c010f0c4935b020e6
+  size: 83027
+  hash: md5
+  path: left_insula.nii.gz

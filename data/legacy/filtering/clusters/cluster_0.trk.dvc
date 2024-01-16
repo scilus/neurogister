@@ -1,0 +1,5 @@
+outs:
+- md5: a781170b17bfd06f871786b36f2d909b
+  size: 1560
+  hash: md5
+  path: cluster_0.trk

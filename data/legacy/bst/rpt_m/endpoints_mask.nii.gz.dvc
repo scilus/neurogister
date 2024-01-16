@@ -1,0 +1,5 @@
+outs:
+- md5: 54ef35308793e5ef0bb3d254fe6b2833
+  size: 9124
+  hash: md5
+  path: endpoints_mask.nii.gz

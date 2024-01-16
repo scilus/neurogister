@@ -1,0 +1,5 @@
+outs:
+- md5: 9c45d4afe0173eb35534ca342de07433
+  size: 89844
+  hash: md5
+  path: right_superior_parietal.nii.gz

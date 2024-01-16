@@ -1,0 +1,5 @@
+outs:
+- md5: 18356c0f981c971351566a8bcd468878
+  size: 250205
+  hash: md5
+  path: rd_test.nii.gz

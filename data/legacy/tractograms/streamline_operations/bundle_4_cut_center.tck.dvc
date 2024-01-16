@@ -1,0 +1,5 @@
+outs:
+- md5: 5d00c2c90094500b0b482cbc0f91bd77
+  size: 1710
+  hash: md5
+  path: bundle_4_cut_center.tck

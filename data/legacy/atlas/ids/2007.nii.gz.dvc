@@ -1,0 +1,5 @@
+outs:
+- md5: db4f888da5510abf88411ec462fcdb1e
+  size: 84782
+  hash: md5
+  path: 2007.nii.gz

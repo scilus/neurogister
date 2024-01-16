@@ -1,0 +1,5 @@
+outs:
+- md5: efed10fd99a02de77ff84258bce93609
+  size: 76766
+  hash: md5
+  path: right_caudal_anterior_cingulate.nii.gz

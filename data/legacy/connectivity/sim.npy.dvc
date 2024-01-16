@@ -1,0 +1,5 @@
+outs:
+- md5: a93816b6483ae9c5e7127826509045fc
+  size: 928
+  hash: md5
+  path: sim.npy

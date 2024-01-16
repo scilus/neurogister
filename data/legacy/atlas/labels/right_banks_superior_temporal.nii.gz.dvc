@@ -1,0 +1,5 @@
+outs:
+- md5: bc5e9a4236f835790d0ea07425a2425f
+  size: 76361
+  hash: md5
+  path: right_banks_superior_temporal.nii.gz

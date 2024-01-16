@@ -1,0 +1,5 @@
+outs:
+- md5: 76e5c79848f1698c627d4240bba1bc67
+  size: 22928290
+  hash: md5
+  path: gyri_fanning.fib

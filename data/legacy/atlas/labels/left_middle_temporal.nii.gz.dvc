@@ -1,0 +1,5 @@
+outs:
+- md5: f16505dd1f637865ea137bfd448eb2c3
+  size: 86163
+  hash: md5
+  path: left_middle_temporal.nii.gz

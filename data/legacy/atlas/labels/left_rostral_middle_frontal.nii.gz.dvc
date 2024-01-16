@@ -1,0 +1,5 @@
+outs:
+- md5: 50118e82e1638267beaf34b87808e257
+  size: 90770
+  hash: md5
+  path: left_rostral_middle_frontal.nii.gz

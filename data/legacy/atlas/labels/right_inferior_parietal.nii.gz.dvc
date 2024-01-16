@@ -1,0 +1,5 @@
+outs:
+- md5: 97a99a09c2f546dec1bcd1b30cb91cb1
+  size: 87092
+  hash: md5
+  path: right_inferior_parietal.nii.gz

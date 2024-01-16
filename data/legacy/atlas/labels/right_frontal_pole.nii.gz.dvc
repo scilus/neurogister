@@ -1,0 +1,5 @@
+outs:
+- md5: 10c77ffafd4a6feda632dc031c3e4add
+  size: 75903
+  hash: md5
+  path: right_frontal_pole.nii.gz

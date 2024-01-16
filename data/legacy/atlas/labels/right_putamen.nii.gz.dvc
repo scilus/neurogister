@@ -1,0 +1,5 @@
+outs:
+- md5: af3c56e725f0bc1f42edaedc1e4703a4
+  size: 78645
+  hash: md5
+  path: right_putamen.nii.gz

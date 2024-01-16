@@ -1,0 +1,5 @@
+outs:
+- md5: 4ef9f72ee0a4171d9f0c542f7fa84748
+  size: 2908
+  hash: md5
+  path: atlas_freesurfer_v2_LUT.json

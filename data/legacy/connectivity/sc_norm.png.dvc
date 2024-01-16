@@ -1,0 +1,5 @@
+outs:
+- md5: 362c46c94b5e465b61322b5ac4600a1e
+  size: 38654
+  hash: md5
+  path: sc_norm.png

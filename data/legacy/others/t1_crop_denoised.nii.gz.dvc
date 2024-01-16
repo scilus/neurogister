@@ -1,0 +1,5 @@
+outs:
+- md5: 433debed89c6f1b2749d6b3db10df7fc
+  size: 2495783
+  hash: md5
+  path: t1_crop_denoised.nii.gz

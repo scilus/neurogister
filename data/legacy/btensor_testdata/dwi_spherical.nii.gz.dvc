@@ -1,0 +1,5 @@
+outs:
+- md5: 41f60976801cfaf4fd9c3d62481e06df
+  size: 1154
+  hash: md5
+  path: dwi_spherical.nii.gz

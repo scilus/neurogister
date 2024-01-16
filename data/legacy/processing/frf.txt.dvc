@@ -1,0 +1,5 @@
+outs:
+- md5: 95c48b03c21742a71bf338fa9c76944a
+  size: 100
+  hash: md5
+  path: frf.txt

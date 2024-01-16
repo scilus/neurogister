@@ -1,0 +1,5 @@
+outs:
+- md5: 4a4e744d4cd5ffdd8c8cfab7017e5aa7
+  size: 128777
+  hash: md5
+  path: density.nii.gz

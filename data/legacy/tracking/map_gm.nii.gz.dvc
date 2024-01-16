@@ -1,0 +1,5 @@
+outs:
+- md5: f7ca48caa58aa7ef103941c8677a9673
+  size: 743909
+  hash: md5
+  path: map_gm.nii.gz

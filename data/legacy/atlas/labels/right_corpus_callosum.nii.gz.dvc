@@ -1,0 +1,5 @@
+outs:
+- md5: 366ec88e738fa49de54ce16933b250c3
+  size: 74665
+  hash: md5
+  path: right_corpus_callosum.nii.gz

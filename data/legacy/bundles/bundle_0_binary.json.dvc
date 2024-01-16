@@ -1,0 +1,5 @@
+outs:
+- md5: 69d8d10f7294d6608eeed31a637915a0
+  size: 941
+  hash: md5
+  path: bundle_0_binary.json

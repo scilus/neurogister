@@ -1,0 +1,5 @@
+outs:
+- md5: 0001b9bd2e09f8ff10516c5ccc59a641
+  size: 78188
+  hash: md5
+  path: left_caudate.nii.gz

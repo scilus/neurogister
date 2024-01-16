@@ -1,0 +1,5 @@
+outs:
+- md5: 452486ad673fc2dde945079b184cdac1
+  size: 203119
+  hash: md5
+  path: fa_resample.nii.gz

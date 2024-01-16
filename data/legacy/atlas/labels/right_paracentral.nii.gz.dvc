@@ -1,0 +1,5 @@
+outs:
+- md5: ed0c91863cf0c8a4d711286690d27c8c
+  size: 80783
+  hash: md5
+  path: right_paracentral.nii.gz

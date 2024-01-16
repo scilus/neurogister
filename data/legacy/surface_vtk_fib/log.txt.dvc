@@ -1,0 +1,5 @@
+outs:
+- md5: dead1904a2413034b334bec8a3aa81c5
+  size: 1271
+  hash: md5
+  path: log.txt

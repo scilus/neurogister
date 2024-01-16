@@ -1,0 +1,5 @@
+outs:
+- md5: fc69a359565f35bf130a127ae2ebf2da
+  size: 20
+  hash: md5
+  path: labels_list.txt

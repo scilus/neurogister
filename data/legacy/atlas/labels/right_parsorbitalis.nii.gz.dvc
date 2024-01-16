@@ -1,0 +1,5 @@
+outs:
+- md5: 291e2d8dd4457b8eda8518d26dff6f18
+  size: 77862
+  hash: md5
+  path: right_parsorbitalis.nii.gz

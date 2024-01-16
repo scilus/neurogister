@@ -1,0 +1,5 @@
+outs:
+- md5: 539b88eae70d6ffcdb888b496dceac53
+  size: 29707
+  hash: md5
+  path: IFGWM_labels_map.nii.gz

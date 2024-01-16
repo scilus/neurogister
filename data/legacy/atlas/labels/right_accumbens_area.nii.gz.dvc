@@ -1,0 +1,5 @@
+outs:
+- md5: fd553a0023907ce9346c12e27ea6fbeb
+  size: 75382
+  hash: md5
+  path: right_accumbens_area.nii.gz
