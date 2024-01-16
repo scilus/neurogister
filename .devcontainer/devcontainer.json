@@ -1,0 +1,53 @@
+{
+    "name": "SCIL data management container",
+    "build": { "dockerfile": "Dockerfile" },
+    "forwardPorts": [3000],
+    "onCreateCommand": "bash .devcontainer/setup_container.sh",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/git-lfs:1": {},
+        "ghcr.io/devcontainers/features/github-cli:1": {},
+        "ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {},
+        "ghcr.io/robsyme/features/nextflow:1": {},
+        "ghcr.io/devcontainers-contrib/features/curl-apt-get:1": {},
+        "ghcr.io/devcontainers-contrib/features/tmux-apt-get:1": {},
+        "ghcr.io/devcontainers-contrib/features/wget-apt-get:1": {}
+    },
+    "mounts": [
+        {
+            "source": "nf-scil-venv",
+            "target": "/workspaces/scil_data/.venv",
+            "type": "volume"
+        }
+    ],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "pythonIndent.keepHangingBracketOnLine": true,
+                "pythonIndent.trimLinesWithOnlyWhitespace": true,
+                "python.createEnvironment.trigger": "off",
+                "python.terminal.activateEnvironment": true,
+                "python.poetryPath": "/root/.local/bin/poetry",
+                "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+                "python.analysis.exclude": [
+                    "${workspaceFolder}/.dvc",
+                    "${workspaceFolder}/.pytest_cache",
+                    "${workspaceFolder}/.vscode",
+                    "**/__pycache__",
+                    "${workspaceFolder}/.git"
+                ],
+                "python.analysis.ignore": [
+                    "${workspaceFolder}/.dvc",
+                    "${workspaceFolder}/.pytest_cache",
+                    "${workspaceFolder}/.vscode",
+                    "**/__pycache__",
+                    "${workspaceFolder}/.git"
+                ]
+            },
+            "extensions": [
+                "ms-python.autopep8"
+            ]
+        }
+    },
+    "init": true
+}
