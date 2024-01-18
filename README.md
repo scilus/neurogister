@@ -31,7 +31,7 @@ dvc remote modify --local scil-data ask_passphrase false
 
 # Construct legacy scil-data local registry
 ```
-python3 construct_dvc_store.py
+python3 construct_dvc_from_legacy.py
 dvc commit
 dvc push
 git add *.dvc .dvcignore *.gitignore
@@ -44,4 +44,9 @@ git push
 git add --all
 git commit -m "Initial registry setup"
 git push
+```
+
+# Create a new package from existing data
+```
+python3 create_dvc_package.py <package name> <files in data>
 ```
