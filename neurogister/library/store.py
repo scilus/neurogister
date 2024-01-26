@@ -1,7 +1,7 @@
 
 import os
 
-from neurogister import STORE_ROOT
+from neurogister.config import STORE_ROOT
 from neurogister.library.registry import Registry
 
 

@@ -1,21 +1,19 @@
 
-import logging
-
-from neurogister import REGISTRY_ROOT
+from neurogister.config import REGISTRY_ROOT
 from neurogister.library.registry import Registry
 from neurogister.library.store import Store
 
 
 class Neurogister:
-    def __init__(self, registry_directory, store_directory,
-                 config=None):
+    def __init__(self, registry_directory, store_directory, config=None):
         self.registry = Registry(config)
         self.registry_directory = registry_directory
         self.store = Store(store_directory, config)
-        self.logger = logging.getLogger(self.__class__.__name__)
-        self.logger.setLevel(logging.INFO)
 
     def info(self):
+        print(f"Registry location : {self.registry_directory}")
+        print(f"Store location    : {self.store.store_directory}")
+        print()
         self.registry.info()
 
     def pull_datasets(self, dataset_names, revision=None):

@@ -3,7 +3,8 @@
 import argparse
 import os
 
-from neurogister import REGISTRY_ROOT, STORE_ROOT, Neurogister
+from neurogister import Neurogister
+from neurogister.config import REGISTRY_ROOT, STORE_ROOT
 
 
 def _create_parser():

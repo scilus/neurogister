@@ -4,7 +4,8 @@ import argparse
 import json
 import os
 
-from neurogister import REGISTRY_ROOT, Neurogister
+from neurogister import Neurogister
+from neurogister.config import REGISTRY_ROOT
 from neurogister.legacy import ScilpyFetcher
 
 

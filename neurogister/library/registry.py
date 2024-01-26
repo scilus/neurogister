@@ -3,8 +3,7 @@ from dvc import config as dvc_conf
 from dvc.api import DVCFileSystem
 import os
 
-from neurogister import PUSH_ACCESS, REPOSITORY
-from neurogister.config import restricted, ON_PUSH
+from neurogister.config import REPOSITORY, restricted, ON_PUSH
 
 
 class DVCPush:
@@ -33,9 +32,6 @@ class Registry:
         return DVCFileSystem(
             REPOSITORY, rev=revision, remote_name="neurogister",
             remote_config=self._config["remote"]["neurogister"])
-
-    def _assume_push_access(self):
-        return PUSH_ACCESS
 
     def info(self):
         _fs = self._fs()
