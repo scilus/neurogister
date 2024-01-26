@@ -4,15 +4,11 @@ Welcome to **Neurogister**, a DVC driven data registry for neuroimaging. It prov
 
 # Installation
 
-**NOT WORKING, USE THE CLONE**
-
 Neurogister is delivered through Pypi. To install it, simply run:
 
 ```
 pip install neurogister
 ```
-
-**WORKING CLONE DOWN BELOW**
 
 You can also clone the repository and install it from source. For that, you'll need [hatch](https://hatch.pypa.io/latest/) installed. Then, run the following commands :
 
