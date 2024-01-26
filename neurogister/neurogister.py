@@ -9,6 +9,7 @@ class Neurogister:
         self.registry = Registry(config)
         self.registry_directory = registry_directory
         self.store = Store(store_directory, config)
+        self.registry.initialize()
 
     def info(self):
         print(f"Registry location : {self.registry_directory}")

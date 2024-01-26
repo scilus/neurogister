@@ -6,7 +6,7 @@ import os
 from neurogister.config import REPOSITORY, restricted, ON_PUSH
 
 
-class DVCPush:
+class DVCHelper:
         def __init__(self, config):
             _conf = config
             if not _conf["remote"]:
@@ -17,6 +17,9 @@ class DVCPush:
 
         def _exec(self, _cmd):
             return os.system(_cmd)
+
+        def checkout(self):
+            self._exec("dvc checkout")
 
         def do_push(self, path):
             self._exec(f"dvc add --no-commit {path}")
@@ -32,6 +35,9 @@ class Registry:
         return DVCFileSystem(
             REPOSITORY, rev=revision, remote_name="neurogister",
             remote_config=self._config["remote"]["neurogister"])
+
+    def initialize(self):
+        DVCHelper(self._config).checkout()
 
     def info(self):
         _fs = self._fs()
@@ -66,7 +72,7 @@ class Registry:
         else:
             os.symlink(os.path.realpath(source), target)
 
-        DVCPush(self._config).do_push(target)
+        DVCHelper(self._config).do_push(target)
 
     def list(self, path, revision=None, details=False,
              recursive=True, maxdepth=None):
