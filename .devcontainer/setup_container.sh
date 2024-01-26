@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-poetry install --no-root
+
+hatch config set dirs.env.virtual $PWD/.virtualenvs
+hatch env create

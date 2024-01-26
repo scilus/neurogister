@@ -8,4 +8,4 @@ RUN apt update && apt install -y \
 
 RUN python3 -m pip install pipx && \
     python3 -m pipx ensurepath && \
-    pipx install poetry
+    pipx install hatch
