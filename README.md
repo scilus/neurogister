@@ -1,52 +1,58 @@
+# Neurogister
 
+Welcome to **Neurogister**, a DVC driven data registry for neuroimaging. It provides datasets for process validation and benchmarking, educational purposes, and more. 
 
-# Setup the DVC registry
+# Installation
+
+**NOT WORKING, USE THE CLONE**
+
+Neurogister is delivered through Pypi. To install it, simply run:
+
 ```
-dvc init
-dvc cache dir ~/.scilpy/dvc-cache
-dvc config cache.shared group
-dvc config cache.type symlink
-```
-
-
-# Setup the DVC remote registry
-```
-dvc remote add -d scil-data ssh://<remote url>:<remote port><path to data>
+pip install neurogister
 ```
 
-## Create keyfile for authentication and setup on remote
+**WORKING CLONE DOWN BELOW**
+
+You can also clone the repository and install it from source. For that, you'll need [hatch](https://hatch.pypa.io/latest/) installed. Then, run the following commands :
+
 ```
-ssh-keygen -q -f scil-data.keyfile -N "" -C "<user>@<host>"
-ssh-copy-id -i scil-data.keyfile.pub <user>@<remote url>
-cp scil-data.keyfile ~/.ssh/.
-cp scil-data.keyfile.pub ~/.ssh/.
+git clone https://github.com/AlexVCaron/neurogister.git
+hatch env create
+hatch shell
 ```
 
-## Add local authentication
+# Usage
+
+For now, *neurogister* doesn't offer much. It is mostly designed to serve as a test dataset creator and fetcher for [scilpy](https://github.com/scilus/scilpy) and [nf-scil](https://github.com/scilus/nf-scil).
+
+You are free to roam it's current API. You can use the info, pull and list commands to get data from the registry. Try it and tell us about it !
+
+## Raw access with DVC (REQUIRES GIT CLONE)
+
+Once cloned, you can use **dvc** directly to interact with the registry. For example, to get the list of all datasets, run:
+
 ```
-dvc remote modify --local scil-data user <user>
-dvc remote modify --local scil-data keyfile <keyfile>
-dvc remote modify --local scil-data ask_passphrase false
+dvc list -R
 ```
 
-# Construct legacy scil-data local registry
-```
-python3 construct_dvc_from_legacy.py
-dvc commit
-dvc push
-git add *.dvc .dvcignore *.gitignore
-git commit -m "Generate legacy registry"
-git push
-```
+To get a list of commands, run `dvc --help`.
 
-# Commit config and setup to git
-```
-git add --all
-git commit -m "Initial registry setup"
-git push
-```
+# Storage structure
 
-# Create a new package from existing data
-```
-python3 create_dvc_package.py <package name> <files in data>
-```
+The data is stored in a DVC registry, stored online and versioned through this repository. The dataset **registry** is stored in the data/ folder and the package **store** in the store/ folder.
+
+**Registry**
+
+Inside the registry, you'll find several collection of datasets, in a more or less organized fashion,though each collection is stored in a separate folder. Files collected in a same folder should have a common role or exist in the same context or space.
+
+**Store**
+
+Comparatively to the registry, the store is a strictly organized collection of packages. Each entry is a curated vendor, registered with **neurogister**, that contains a set of validated and versioned packages **with purpose**. Every package in the store points to a collection of datasets in the registry.
+
+# TODO
+
+- Data structure schema
+- Reorganize store in logical folders (departments)
+- Create PR workflow for adding new data (in data/)
+- Create PR workflow for adding new packages (in store/...)
