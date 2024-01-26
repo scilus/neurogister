@@ -1,0 +1,37 @@
+[project]
+
+name = "Neurogister"
+description = """
+Neurogister is a DVC driven data registry for neuroimaging. It provides 
+datasets for processes validation and benchmarking, educational purposes,
+and more.
+"""
+
+readme = "README.md"
+license = "MIT"
+
+authors = [
+    { name = "AlexVCaron", email = "alex.valcourt.caron@usherbrooke.ca" }
+]
+maintainers = [
+    { name = "AlexVCaron", email = "alex.valcourt.caron@usherbrooke.ca" }
+]
+
+requires-python = ">=3.10"
+dependencies = [
+    "dvc~=3.41"
+]
+
+dynamic = ["version"]
+
+[tool.hatch.version]
+path = "neurogister/__init__.py"
+
+[project.optional-dependencies]
+admin = [
+    "dvc[ssh]~=3.41"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
