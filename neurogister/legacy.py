@@ -1,14 +1,12 @@
-#!/usr/bin/env python3
 
-import json
-import logging
-import hashlib
+
 import os
+import json
+import hashlib
+import logging
 import pathlib
 import requests
 import zipfile
-from tempfile import TemporaryDirectory
-import dvc.config as dvc_conf
 
 
 def get_home():
@@ -20,43 +18,11 @@ def get_home():
     return scilpy_home
 
 
-def get_gdrive_listing():
-    with open("scilpy_listing.json") as f:
-        return json.load(f)
-
-
-class DVCHandler:
-
-    def __init__(self):
-        _conf = dvc_conf.Config("./.dvc")
-        if not _conf["remote"]:
-            raise RuntimeError("Remote for dvc store is not set. Please run "
-                               "dvc remote add <store-name> <type and remote>."
-                               " See https://dvc.org/doc/command-reference/")
-
-    def _exec(self, _cmd):
-        return os.system(_cmd)
-
-    def add(self, path):
-        cmd = "dvc add --no-commit " + path
-        return self._exec(cmd)
-
-    def commit_all(self):
-        cmd = "dvc commit -f"
-        return self._exec(cmd)
-
-    def update_remote(self):
-        cmd = "dvc push"
-        return self._exec(cmd)
-
-
-class CustomFetcher:
+class ScilpyFetcher:
     drive_endpoint = "https://drive.usercontent.google.com/download?"
     local_endpoint = get_home()
 
-    archive_list = get_gdrive_listing()
-
-    def __init__(self, local_endpoint=None, archive_list=None):
+    def __init__(self, archive_list, local_endpoint=None):
         if local_endpoint is not None:
             self.local_endpoint = local_endpoint
         if archive_list is not None:
@@ -162,23 +128,3 @@ class CustomFetcher:
             else:
                 # toDo. Verify that data on disk is the right one.
                 logging.warning("Not fetching data; already on disk.")
-
-
-
-def construct_dvc(target="data/legacy"):
-    dvc = DVCHandler()
-    with TemporaryDirectory() as tmp_dir:
-        fetcher = CustomFetcher(local_endpoint=target or tmp_dir)
-        fetcher.fetch_data()
-
-        for dirpath, _, filenames in os.walk(fetcher.local_endpoint):
-            for filename in filenames:
-                dvc.add(os.path.join(dirpath, filename))
-
-        dvc.commit_all()
-        dvc.update_remote()
-
-
-if __name__ == "__main__":
-    construct_dvc()
-    

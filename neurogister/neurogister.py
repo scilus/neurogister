@@ -54,3 +54,9 @@ class Neurogister:
 
     def list_datasets(self):
         return self.registry.list(f"{REGISTRY_ROOT}")
+
+    def list_vendors(self):
+        return self.store.list_vendors()
+
+    def vendor_exists(self, vendor):
+        return self.store.vendor_exists(vendor)

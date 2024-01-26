@@ -19,10 +19,15 @@ maintainers = [
 
 requires-python = ">=3.10"
 dependencies = [
-    "dvc~=3.41"
+    "dvc~=3.41",
+    "requests~=2.31"
 ]
 
 dynamic = ["version"]
+
+[project.scripts]
+neuro_create_package = "neurogister.cli:create_package:main"
+neuro_port_legacy_scilpy = "neurogister.cli:port_legacy_scilpy:main"
 
 [tool.hatch.version]
 path = "neurogister/__init__.py"

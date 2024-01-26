@@ -65,12 +65,14 @@ class Store:
 
     def list_packages(self, vendor=None, list_content=False):
         if vendor is None:
-            vendors = self.store.list(f"{STORE_ROOT}", recursive=False)
-            return [p for vendor in vendors for p in self.store.list(
-                vendor, recursive=False)]
+            return [p for vendor in self.list_vendors() 
+                      for p in self.store.list(vendor, recursive=False)]
 
         if not self.vendor_exists(vendor):
             raise ValueError(f"Vendor {vendor} does not exist.")
 
         return self.store.list(f"{STORE_ROOT}/{vendor}",
                                recursive=list_content)
+
+    def list_vendors(self):
+        return self.store.list(f"{STORE_ROOT}", recursive=False)
