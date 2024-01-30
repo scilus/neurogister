@@ -1,11 +1,13 @@
 
-from neurogister.config import REGISTRY_ROOT
+from neurogister.config import REGISTRY_ROOT, authenticated, get_dvc_directory
 from neurogister.library.registry import Registry
 from neurogister.library.store import Store
 
 
+@authenticated
 class Neurogister:
-    def __init__(self, registry_directory, store_directory, config=None):
+    def __init__(self, registry_directory, store_directory, 
+                 config=get_dvc_directory()):
         self.registry = Registry(config)
         self.registry_directory = registry_directory
         self.store = Store(store_directory, config)

@@ -2,6 +2,8 @@
 from dvc import config as dvc_conf
 from dvc.api import DVCFileSystem
 import os
+import subprocess
+
 
 from neurogister.config import REPOSITORY, restricted, ON_PUSH
 
@@ -16,10 +18,16 @@ class DVCHelper:
                     "See https://dvc.org/doc/command-reference/")
 
         def _exec(self, _cmd):
-            return os.system(_cmd)
+            try:
+                ret_code = subprocess.call(_cmd.split(" "))
+                if ret_code != 0:
+                    raise subprocess.CalledProcessError(ret_code, _cmd)
+            except subprocess.CalledProcessError as e:
+                print(e.output)
+                raise e
 
-        def checkout(self):
-            self._exec("dvc checkout")
+        def checkout(self, path="."):
+            self._exec(f"dvc checkout {path}")
 
         def do_push(self, path):
             self._exec(f"dvc add --no-commit {path}")
@@ -36,8 +44,8 @@ class Registry:
             REPOSITORY, rev=revision, remote_name="neurogister",
             remote_config=self._config["remote"]["neurogister"])
 
-    def initialize(self):
-        DVCHelper(self._config).checkout()
+    def initialize(self, path="."):
+        DVCHelper(self._config).checkout(path)
 
     def info(self):
         _fs = self._fs()
