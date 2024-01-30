@@ -26,13 +26,15 @@ class DVCHelper:
                 print(e.output)
                 raise e
 
-        def checkout(self, path="."):
+        def checkout(self, path=""):
             self._exec(f"dvc checkout {path}")
 
         def do_push(self, path):
             self._exec(f"dvc add --no-commit {path}")
             self._exec(f"dvc commit -f {path}")
             self._exec(f"dvc push {path}")
+            self._exec(f"git commit -m \"Submitting {path}\"")
+            self._exec(f"git push")
 
 
 class Registry:
@@ -44,7 +46,7 @@ class Registry:
             REPOSITORY, rev=revision, remote_name="neurogister",
             remote_config=self._config["remote"]["neurogister"])
 
-    def initialize(self, path="."):
+    def initialize(self, path=""):
         DVCHelper(self._config).checkout(path)
 
     def info(self):

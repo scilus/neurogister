@@ -1,6 +1,7 @@
 [cache]
     type = symlink
-['remote "neurogister"']
-    url = https://scil.usherbrooke.ca/scil_test_data/dvc-store
 [core]
     remote = neurogister
+    autostage = true
+['remote "neurogister"']
+    url = https://scil.usherbrooke.ca/scil_test_data/dvc-store
