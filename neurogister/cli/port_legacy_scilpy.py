@@ -17,6 +17,7 @@ def _create_parser():
     p.add_argument("--target_dir", default=f".{REGISTRY_ROOT}",
                    help="Directory where to upload. Will be postponed "
                         "with /legacy/scilpy (default: %(default)s)")
+    p.add_argument("--zipped", action="store_true")
 
     return p
 
@@ -24,13 +25,13 @@ def _create_parser():
 def main():
     parser = _create_parser()
     args = parser.parse_args()
-    target = os.path.join(args.target_dir, "/legacy/scilpy")
+    target = os.path.join(args.target_dir, "legacy/scilpy")
 
     with open(args.gdrive_listing) as f:
         archive_list = json.load(f)
 
     fetcher = ScilpyFetcher(archive_list, target)
-    fetcher.fetch_data()
+    fetcher.fetch_data(unpack=not args.zipped)
 
     registry = Neurogister(args.target_dir, "./store")
     for dirpath, _, filenames in os.walk(target):

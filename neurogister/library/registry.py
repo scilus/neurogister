@@ -5,7 +5,7 @@ import os
 import subprocess
 
 
-from neurogister.config import REPOSITORY, restricted, ON_PUSH
+from neurogister.config import REPOSITORY, DVC_DATA_BRANCH, restricted, ON_PUSH
 
 
 class DVCHelper:
@@ -27,7 +27,11 @@ class DVCHelper:
                 raise e
 
         def checkout(self, path=""):
-            self._exec(f"dvc checkout {path}")
+            args = "--force --relink"
+            if path and os.path.isdir(path):
+                args += " -R"
+
+            self._exec(f"dvc checkout {args} {path}")
 
         def do_push(self, path):
             self._exec(f"dvc add --no-commit {path}")
@@ -35,13 +39,14 @@ class DVCHelper:
             self._exec(f"dvc push {path}")
             self._exec(f"git commit -m \"Submitting {path}\"")
             self._exec(f"git push")
+            self.checkout(path)
 
 
 class Registry:
     def __init__(self, config=None):
         self._config = dvc_conf.Config(config)
 
-    def _fs(self, revision=None):
+    def _fs(self, revision=DVC_DATA_BRANCH):
         return DVCFileSystem(
             REPOSITORY, rev=revision, remote_name="neurogister",
             remote_config=self._config["remote"]["neurogister"])

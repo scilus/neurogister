@@ -21,7 +21,7 @@ class Store:
 
     def package_exists(self, vendor, package_name):
         return package_name in [p.split("/")[-1] for p in self.store.list(
-            f"{STORE_ROOT}/{vendor}", recursive=False)]
+            f"{STORE_ROOT}/{vendor}.dvc", recursive=False)]
 
     def create_vendor(self, vendor, description):
         self._validate_vendor(vendor)

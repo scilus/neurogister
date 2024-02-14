@@ -6,6 +6,7 @@ import hashlib
 import logging
 import pathlib
 import requests
+import shutil
 import zipfile
 
 
@@ -64,7 +65,7 @@ class ScilpyFetcher:
 
         save_response_content(response, destination)
 
-    def fetch_data(self, files_dict=None, keys=None, test_md5=False):
+    def fetch_data(self, files_dict=None, keys=None, test_md5=False, unpack=True):
         """
         Fetch data. Typical use would be with gdown.
         But with too many data accesses, downloaded become denied.
@@ -103,24 +104,25 @@ class ScilpyFetcher:
                     if test_md5 and md5_returned != md5:
                         raise ValueError('MD5 mismatch for file {}.'.format(f))
 
-                    try:
-                        # If there is a root dir, we want to skip one level.
-                        z = zipfile.ZipFile(full_path)
-                        zipinfos = z.infolist()
-                        root_dir = pathlib.Path(
-                            zipinfos[0].filename).parts[0] + '/'
-                        assert all([s.startswith(root_dir) for s in z.namelist()])
-                        nb_root = len(root_dir)
-                        for zipinfo in zipinfos:
-                            zipinfo.filename = zipinfo.filename[nb_root:]
-                            if zipinfo.filename != '':
-                                z.extract(zipinfo, path=full_path_no_ext)
-                    except AssertionError:
-                        # Not root dir. Extracting directly.
-                        z.extractall(full_path)
-                    finally:
-                        z.close()
-                        os.remove(full_path)
+                    if unpack:
+                        try:
+                            # If there is a root dir, we want to skip one level.
+                            z = zipfile.ZipFile(full_path)
+                            zipinfos = z.infolist()
+                            root_dir = pathlib.Path(
+                                zipinfos[0].filename).parts[0] + '/'
+                            assert all([s.startswith(root_dir) for s in z.namelist()])
+                            nb_root = len(root_dir)
+                            for zipinfo in zipinfos:
+                                zipinfo.filename = zipinfo.filename[nb_root:]
+                                if zipinfo.filename != '':
+                                    z.extract(zipinfo, path=full_path_no_ext)
+                        except AssertionError:
+                            # Not root dir. Extracting directly.
+                            z.extractall(full_path)
+                        finally:
+                            z.close()
+                            os.remove(full_path)
                 else:
                     raise NotImplementedError(
                         "Data fetcher was expecting to deal with a zip file.")

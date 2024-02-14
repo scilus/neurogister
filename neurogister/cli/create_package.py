@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import argparse
-import os
 
 from neurogister import Neurogister
 from neurogister.config import REGISTRY_ROOT, STORE_ROOT
