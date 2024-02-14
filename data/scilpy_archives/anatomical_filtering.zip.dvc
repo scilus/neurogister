@@ -1,0 +1,5 @@
+outs:
+- md5: 5282020575bd485e15d3251257b97e01
+  size: 26180089
+  hash: md5
+  path: anatomical_filtering.zip

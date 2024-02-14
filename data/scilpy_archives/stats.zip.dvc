@@ -1,0 +1,5 @@
+outs:
+- md5: 2aeac4da5ab054b3a460fc5fdc5e4243
+  size: 3683900
+  hash: md5
+  path: stats.zip

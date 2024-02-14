@@ -1,0 +1,5 @@
+outs:
+- md5: 7ada72201a767292d56634e0a7bbd9ad
+  size: 12530
+  hash: md5
+  path: btensor_testdata.zip

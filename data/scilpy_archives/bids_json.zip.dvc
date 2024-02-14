@@ -1,0 +1,5 @@
+outs:
+- md5: 97fd9a414849567fbfdfdb0ef400488b
+  size: 3818
+  hash: md5
+  path: bids_json.zip
