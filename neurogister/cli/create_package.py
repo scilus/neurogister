@@ -33,3 +33,7 @@ def main():
             raise ValueError(f"Vendor {args.vendor_name} does not exist.")
 
     registry.create_package(args.vendor_name, args.package_name, args.files)
+
+
+if __name__ == "__main__":
+    main()

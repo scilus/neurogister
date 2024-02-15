@@ -1,15 +1,17 @@
 
 from dvc import config as dvc_conf
 from dvc.api import DVCFileSystem
+from git import Repo
 import os
 import subprocess
+import sys
 
 
 from neurogister.config import REPOSITORY, DVC_DATA_BRANCH, restricted, ON_PUSH
 
 
 class DVCHelper:
-        def __init__(self, config):
+        def __init__(self, config, fs):
             _conf = config
             if not _conf["remote"]:
                 raise RuntimeError(
@@ -17,29 +19,17 @@ class DVCHelper:
                     "dvc remote add <store-name> <type and remote>. "
                     "See https://dvc.org/doc/command-reference/")
 
-        def _exec(self, _cmd):
-            try:
-                ret_code = subprocess.call(_cmd.split(" "))
-                if ret_code != 0:
-                    raise subprocess.CalledProcessError(ret_code, _cmd)
-            except subprocess.CalledProcessError as e:
-                print(e.output)
-                raise e
+            self._fs = fs
 
         def checkout(self, path=""):
-            args = "--force --relink"
-            if path and os.path.isdir(path):
-                args += " -R"
-
-            self._exec(f"dvc checkout {args} {path}")
+            self._fs.repo.checkout(
+                path, force=True, relink=True,
+                recursive=not path or os.path.isdir(path))
 
         def do_push(self, path):
-            self._exec(f"dvc add --no-commit {path}")
-            self._exec(f"dvc commit -f {path}")
-            self._exec(f"dvc push {path}")
-            self._exec(f"git commit -m \"Submitting {path}\"")
-            self._exec(f"git push")
-            self.checkout(path)
+            self._fs.repo.add(path, no_commit=True)
+            self._fs.repo.commit(force=True)
+            self._fs.repo.push()
 
 
 class Registry:
@@ -52,7 +42,7 @@ class Registry:
             remote_config=self._config["remote"]["neurogister"])
 
     def initialize(self, path=""):
-        DVCHelper(self._config).checkout(path)
+        DVCHelper(self._config, self._fs()).checkout(path)
 
     def info(self):
         _fs = self._fs()
@@ -87,7 +77,9 @@ class Registry:
         else:
             os.symlink(os.path.realpath(source), target)
 
-        DVCHelper(self._config).do_push(target)
+        fs = self._fs()
+        DVCHelper(self._config, fs).do_push(target)
+        DVCHelper(self._config, fs).checkout(target)
 
     def list(self, path, revision=None, details=False,
              recursive=True, maxdepth=None):
