@@ -1,0 +1,6 @@
+outs:
+- md5: ba64258c4225ea6e70454e7e70283185.dir
+  size: 23
+  nfiles: 1
+  hash: md5
+  path: scilpy_tests
