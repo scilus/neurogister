@@ -15,7 +15,7 @@ description: CREATED BY NEUROGISTRY
 packages:
 EOF
 
-git add $VENDOR/meta.yml
+git add store/$VENDOR/meta.yml
 git commit -m "Added vendor $VENDOR"
 
 fi
@@ -36,7 +36,7 @@ cat <<- EOF >> store/$VENDOR/meta.yml
   - $PACKAGE
 EOF
 
-git add $VENDOR/meta.yml
+git add store/$VENDOR/meta.yml
 
 dvc add --no-commit store/$VENDOR/$PACKAGE
 dvc commit -f store/$VENDOR/$PACKAGE
