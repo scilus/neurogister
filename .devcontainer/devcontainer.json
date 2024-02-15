@@ -16,6 +16,11 @@
             "source": "scil_data-venv",
             "target": "/workspaces/scil_data/.virtualenvs",
             "type": "volume"
+        },
+        {
+            "source": "scil_data-tmp",
+            "target": "/tmp",
+            "type": "volume"
         }
     ],
     "customizations": {

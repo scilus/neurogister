@@ -11,7 +11,8 @@
             "program": "${workspaceFolder}/neurogister/cli/create_package.py",
             "console": "integratedTerminal",
             "args": ["aodf_metrics", "scilpy_tests data/legacy/fodf_filtering/fodf_descoteaux07_sub.nii.gz", "data/legacy/fodf_filtering/fodf_descoteaux07_sub_full.nii.gz", "--create_vendor"],
-            "cwd": "${workspaceFolder}"
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
         }
     ]
 }
