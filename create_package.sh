@@ -43,3 +43,11 @@ dvc commit -f store/$VENDOR/$PACKAGE
 dvc push store/$VENDOR/$PACKAGE
 
 git commit -m "Create package $PACKAGE for vendor $VENDOR"
+
+echo ""
+echo "New package $PACKAGE created for $VENDOR"
+echo "  -> Package location : store/$VENDOR/$PACKAGE"
+echo "  -> Revision to current package version : $(git rev-parse HEAD)"
+echo ""
+echo "CHANGES WERE COMMITED, BUT YOU NEED TO PUSH THEM STILL"
+echo ""
