@@ -1,6 +1,6 @@
 outs:
-- md5: d85f6168d9d2e5d187a6a24c9acb6336.dir
-  size: 3347968
+- md5: 29e9fbbcb95e24641e0ed5bc9c8b38f8.dir
+  size: 3348815
   nfiles: 2
   hash: md5
   path: aodf_metrics
