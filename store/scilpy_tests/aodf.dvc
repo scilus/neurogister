@@ -1,0 +1,6 @@
+outs:
+- md5: 79f038ca85c1f94a789bff685f04ce73.dir
+  size: 7672970
+  nfiles: 4
+  hash: md5
+  path: aodf
