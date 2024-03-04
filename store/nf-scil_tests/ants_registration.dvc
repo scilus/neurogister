@@ -1,0 +1,6 @@
+outs:
+- md5: 0ea460322f54a450e157c02e3573e61b.dir
+  size: 9642943
+  nfiles: 5
+  hash: md5
+  path: ants_registration
