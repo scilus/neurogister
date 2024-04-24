@@ -1,0 +1,5 @@
+outs:
+- md5: 6f2cd0bbdb162455e71de1c7d3b4eb18
+  size: 69863563
+  hash: md5
+  path: heavy.zip
