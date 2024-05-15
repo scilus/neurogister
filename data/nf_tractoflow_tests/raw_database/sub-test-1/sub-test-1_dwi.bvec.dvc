@@ -1,0 +1,5 @@
+outs:
+- md5: ffb5454f2212783f65e69b0fd7d242b1
+  size: 3036
+  hash: md5
+  path: sub-test-1_dwi.bvec

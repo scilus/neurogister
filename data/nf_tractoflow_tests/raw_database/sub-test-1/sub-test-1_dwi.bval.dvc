@@ -1,0 +1,5 @@
+outs:
+- md5: 25f1142227475e362e0381b42ec44433
+  size: 530
+  hash: md5
+  path: sub-test-1_dwi.bval
