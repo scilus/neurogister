@@ -1,0 +1,5 @@
+outs:
+- md5: 292c6ecfb0caf6042ee0cc69bbb7e517
+  size: 357
+  hash: md5
+  path: skull_strip.touch

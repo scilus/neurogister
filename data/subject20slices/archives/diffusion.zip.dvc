@@ -1,0 +1,5 @@
+outs:
+- md5: fc1a0a1c26dba8add5f86013ba484afb
+  size: 109055343
+  hash: md5
+  path: diffusion.zip

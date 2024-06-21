@@ -1,0 +1,5 @@
+outs:
+- md5: 4b7856a340917db87c072ae7454f49d6
+  size: 120465
+  hash: md5
+  path: filled.mgz

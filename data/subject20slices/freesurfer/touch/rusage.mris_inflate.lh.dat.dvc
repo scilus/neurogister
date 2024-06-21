@@ -1,0 +1,5 @@
+outs:
+- md5: 82a9e2b96607cf5ce0dc533eb1f4652a
+  size: 255
+  hash: md5
+  path: rusage.mris_inflate.lh.dat

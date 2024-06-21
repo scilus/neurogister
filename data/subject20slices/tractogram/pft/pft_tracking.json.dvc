@@ -1,0 +1,5 @@
+outs:
+- md5: 8bacb1e249de072e0e94e47be166f580
+  size: 71
+  hash: md5
+  path: pft_tracking.json

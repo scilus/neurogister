@@ -1,0 +1,5 @@
+outs:
+- md5: afca5fe20190861eced6400317327447
+  size: 4387422
+  hash: md5
+  path: rh.inflated.nofix

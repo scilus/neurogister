@@ -1,0 +1,5 @@
+outs:
+- md5: d75e00b8e3302375ffa4d2c1de4e7e4f
+  size: 1608
+  hash: md5
+  path: talairach.lta

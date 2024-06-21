@@ -1,0 +1,5 @@
+outs:
+- md5: 5b163bb11a44b6810a0490ceb3f66df7
+  size: 3748
+  hash: md5
+  path: recon-all-status.log

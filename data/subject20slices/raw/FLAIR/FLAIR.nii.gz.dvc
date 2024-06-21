@@ -1,0 +1,5 @@
+outs:
+- md5: a031b927107ace28c07d8ed58c372cb6
+  size: 142
+  hash: md5
+  path: FLAIR.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 81e4f37e8c620c7546b1ea6f73e2887c
+  size: 22621096
+  hash: md5
+  path: raw.zip

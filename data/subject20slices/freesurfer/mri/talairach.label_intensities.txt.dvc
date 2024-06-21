@@ -1,0 +1,5 @@
+outs:
+- md5: db4ecd0b809cce84b996de6e7de1ceb2
+  size: 1543
+  hash: md5
+  path: talairach.label_intensities.txt

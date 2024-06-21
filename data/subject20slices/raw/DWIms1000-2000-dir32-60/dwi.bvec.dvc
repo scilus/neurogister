@@ -1,0 +1,5 @@
+outs:
+- md5: 7f2e4435c4e7e32bde83f2d8a3c6f525
+  size: 5502
+  hash: md5
+  path: dwi.bvec

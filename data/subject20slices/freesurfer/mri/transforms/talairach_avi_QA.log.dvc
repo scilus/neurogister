@@ -1,0 +1,5 @@
+outs:
+- md5: 313483be9cddca914b2fb67866877a5e
+  size: 92
+  hash: md5
+  path: talairach_avi_QA.log

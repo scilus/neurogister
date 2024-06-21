@@ -1,0 +1,5 @@
+outs:
+- md5: 124e431507536a3e2ba08794303b12a6
+  size: 6693
+  hash: md5
+  path: rh.aparc.pial.stats

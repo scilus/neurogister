@@ -1,0 +1,5 @@
+outs:
+- md5: 6a362a9c9d866621e1ef360ae5d7d7fd
+  size: 4104
+  hash: md5
+  path: aparc.annot.a2009s.ctab

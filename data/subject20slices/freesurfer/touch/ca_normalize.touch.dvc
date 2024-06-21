@@ -1,0 +1,5 @@
+outs:
+- md5: d175a97d76ec48f04a8b3be6db1def3a
+  size: 204
+  hash: md5
+  path: ca_normalize.touch

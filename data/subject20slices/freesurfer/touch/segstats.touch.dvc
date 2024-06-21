@@ -1,0 +1,5 @@
+outs:
+- md5: 27d660f26e0b98017343479ba1e82d5e
+  size: 438
+  hash: md5
+  path: segstats.touch

@@ -1,0 +1,5 @@
+outs:
+- md5: 7308b236cb124e3de10890f5cb133550
+  size: 1966
+  hash: md5
+  path: dwi.json

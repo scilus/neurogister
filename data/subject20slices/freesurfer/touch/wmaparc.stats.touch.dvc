@@ -1,0 +1,5 @@
+outs:
+- md5: 9bdb459899be1b9cf824999d522035c6
+  size: 339
+  hash: md5
+  path: wmaparc.stats.touch

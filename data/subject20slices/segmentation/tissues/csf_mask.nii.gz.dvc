@@ -1,0 +1,5 @@
+outs:
+- md5: 1af686cbe8fe3db71ff7fd2599567ec5
+  size: 48005
+  hash: md5
+  path: csf_mask.nii.gz

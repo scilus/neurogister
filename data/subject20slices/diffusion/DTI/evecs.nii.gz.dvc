@@ -1,0 +1,5 @@
+outs:
+- md5: 3f2b0f3a9b401f68257dc3cc03bc583c
+  size: 11311951
+  hash: md5
+  path: evecs.nii.gz

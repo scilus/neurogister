@@ -1,0 +1,5 @@
+outs:
+- md5: 53d3b90e27a4d56a77069c79cc40df0f
+  size: 16409
+  hash: md5
+  path: rh.curv.stats

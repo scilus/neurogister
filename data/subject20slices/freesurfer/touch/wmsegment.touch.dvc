@@ -1,0 +1,5 @@
+outs:
+- md5: 9d5b43abe2bc3d3eb3be78fd7d562ff1
+  size: 47
+  hash: md5
+  path: wmsegment.touch

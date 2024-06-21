@@ -1,0 +1,5 @@
+outs:
+- md5: 755d3b8a290374b3177e752ec27633e2
+  size: 29
+  hash: md5
+  path: nu.touch

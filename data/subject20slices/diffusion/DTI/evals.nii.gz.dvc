@@ -1,0 +1,5 @@
+outs:
+- md5: 84ac3c6887364bbe188544c72193d8cb
+  size: 3582480
+  hash: md5
+  path: evals.nii.gz

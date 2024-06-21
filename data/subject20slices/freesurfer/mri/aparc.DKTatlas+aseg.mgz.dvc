@@ -1,0 +1,5 @@
+outs:
+- md5: 6606c4cb73871d81f373664173d54a08
+  size: 358520
+  hash: md5
+  path: aparc.DKTatlas+aseg.mgz

@@ -1,0 +1,5 @@
+outs:
+- md5: a21eefab944b99540e75a31a2e29ba48
+  size: 119
+  hash: md5
+  path: segment.dat

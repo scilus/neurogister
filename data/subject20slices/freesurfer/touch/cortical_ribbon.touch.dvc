@@ -1,0 +1,5 @@
+outs:
+- md5: 22b5797ccb25241e7a0699553c956f57
+  size: 162
+  hash: md5
+  path: cortical_ribbon.touch

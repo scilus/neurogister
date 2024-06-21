@@ -1,0 +1,5 @@
+outs:
+- md5: 79721026e491dcccbc74a614e2df1324
+  size: 58
+  hash: md5
+  path: build-stamp.txt

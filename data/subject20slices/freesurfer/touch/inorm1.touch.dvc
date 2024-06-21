@@ -1,0 +1,5 @@
+outs:
+- md5: fba0cbd3664470f4a6ad1e4fec5d34a4
+  size: 41
+  hash: md5
+  path: inorm1.touch

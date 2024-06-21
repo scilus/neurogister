@@ -1,0 +1,5 @@
+outs:
+- md5: 9127ea90bf1fd3c7b373e7f68ec2f4fa
+  size: 120
+  hash: md5
+  path: lh.curvstats.touch

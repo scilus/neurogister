@@ -1,0 +1,5 @@
+outs:
+- md5: 6f29b7aeba3f3f9b1eecddc29caa697d
+  size: 1182969
+  hash: md5
+  path: evals_e1.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: ae61a6e9a9d3db500aa5ef1450e217fb
+  size: 555
+  hash: md5
+  path: recon-all.done

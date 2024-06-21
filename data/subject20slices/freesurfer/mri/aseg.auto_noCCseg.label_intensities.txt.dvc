@@ -1,0 +1,5 @@
+outs:
+- md5: aa372ea09d9d7e8621cc821c8cd336d4
+  size: 1544
+  hash: md5
+  path: aseg.auto_noCCseg.label_intensities.txt

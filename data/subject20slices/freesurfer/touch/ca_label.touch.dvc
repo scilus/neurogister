@@ -1,0 +1,5 @@
+outs:
+- md5: 986d647aa76d93c11ca2d23a412d7e7c
+  size: 207
+  hash: md5
+  path: ca_label.touch

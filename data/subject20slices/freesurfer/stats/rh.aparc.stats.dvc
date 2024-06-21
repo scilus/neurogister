@@ -1,0 +1,5 @@
+outs:
+- md5: 5ad0a6b8e42475875317713f74cd2e0c
+  size: 6691
+  hash: md5
+  path: rh.aparc.stats

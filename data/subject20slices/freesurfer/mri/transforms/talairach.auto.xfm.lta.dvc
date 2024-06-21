@@ -1,0 +1,5 @@
+outs:
+- md5: 87bd21bc915b9d7a90d620c30f656471
+  size: 1643
+  hash: md5
+  path: talairach.auto.xfm.lta

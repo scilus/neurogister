@@ -1,0 +1,5 @@
+outs:
+- md5: 7011a4431bdd5cfabc52ebcb7c00f4df
+  size: 9659
+  hash: md5
+  path: mri_nu_correct.mni.log

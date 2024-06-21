@@ -1,0 +1,5 @@
+outs:
+- md5: 07eda8489ba8f7d911e319585f23ffbf
+  size: 9939
+  hash: md5
+  path: aseg.stats

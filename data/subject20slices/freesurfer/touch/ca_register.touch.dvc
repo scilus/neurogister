@@ -1,0 +1,5 @@
+outs:
+- md5: 1b98fbef38475b17f3e031f41e1de4cf
+  size: 384
+  hash: md5
+  path: ca_register.touch

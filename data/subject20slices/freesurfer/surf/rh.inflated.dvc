@@ -1,0 +1,5 @@
+outs:
+- md5: 55332cbbf78bff422e8dcb50ebaf0a37
+  size: 4357852
+  hash: md5
+  path: rh.inflated

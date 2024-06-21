@@ -1,0 +1,5 @@
+outs:
+- md5: abc29556ea58d534ae07816f52064357
+  size: 1472882
+  hash: md5
+  path: rgb.nii.gz

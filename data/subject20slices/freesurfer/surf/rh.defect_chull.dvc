@@ -1,0 +1,5 @@
+outs:
+- md5: 57c4b1d8d24f5188a6a6ef12d4fb6241
+  size: 487335
+  hash: md5
+  path: rh.defect_chull

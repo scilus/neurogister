@@ -1,0 +1,5 @@
+outs:
+- md5: 9d90f7d62f4d4838e39d36fffbec18af
+  size: 4386620
+  hash: md5
+  path: rh.orig.nofix

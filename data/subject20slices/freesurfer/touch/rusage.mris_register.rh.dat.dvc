@@ -1,0 +1,5 @@
+outs:
+- md5: 867951bad2fe1b52e10b1faadb6a0b68
+  size: 264
+  hash: md5
+  path: rusage.mris_register.rh.dat

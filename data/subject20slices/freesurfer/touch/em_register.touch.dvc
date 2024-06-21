@@ -1,0 +1,5 @@
+outs:
+- md5: 4ed47fdb4854e5328e2de204006a7c91
+  size: 331
+  hash: md5
+  path: em_register.touch

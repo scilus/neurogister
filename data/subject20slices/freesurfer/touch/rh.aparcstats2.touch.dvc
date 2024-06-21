@@ -1,0 +1,5 @@
+outs:
+- md5: 3f8d108eea59be3e0e4b0f1187a572a0
+  size: 201
+  hash: md5
+  path: rh.aparcstats2.touch

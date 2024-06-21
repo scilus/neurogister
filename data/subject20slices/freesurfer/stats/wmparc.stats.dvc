@@ -1,0 +1,5 @@
+outs:
+- md5: b888874b78309bcdd9bf4fc3e84d8ea1
+  size: 11222
+  hash: md5
+  path: wmparc.stats

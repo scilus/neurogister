@@ -1,0 +1,5 @@
+outs:
+- md5: aa2a5e3d6262c5b65b9676b6f779dfdc
+  size: 488971
+  hash: md5
+  path: lh.avg_curv

@@ -1,0 +1,5 @@
+outs:
+- md5: f73cfab48eb5cd6490482d8fe52e8034
+  size: 203355
+  hash: md5
+  path: aseg.presurf.hypos.mgz

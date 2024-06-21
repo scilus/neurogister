@@ -1,0 +1,5 @@
+outs:
+- md5: 64ad7baaa4ead58193b4d93947758b1f
+  size: 747965
+  hash: md5
+  path: ctrl_pts.mgz

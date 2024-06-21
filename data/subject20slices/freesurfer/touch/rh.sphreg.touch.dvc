@@ -1,0 +1,5 @@
+outs:
+- md5: 488b84eb8e319e8ee8ab25d07a5d4ebc
+  size: 340
+  hash: md5
+  path: rh.sphreg.touch

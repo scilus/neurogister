@@ -1,0 +1,5 @@
+outs:
+- md5: f52dad9629924298ee69acc1c3a1c652
+  size: 79
+  hash: md5
+  path: lh.inflate1.touch

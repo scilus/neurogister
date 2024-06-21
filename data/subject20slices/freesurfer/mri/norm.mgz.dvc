@@ -1,0 +1,5 @@
+outs:
+- md5: 402aa80c5adcc32fa6f6c512b28bfae2
+  size: 1227535
+  hash: md5
+  path: norm.mgz

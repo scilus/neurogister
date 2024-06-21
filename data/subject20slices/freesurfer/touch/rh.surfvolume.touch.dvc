@@ -1,0 +1,5 @@
+outs:
+- md5: 19cded35b0357f5cbce3fc3c00e02fd8
+  size: 45
+  hash: md5
+  path: rh.surfvolume.touch

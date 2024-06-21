@@ -1,0 +1,5 @@
+outs:
+- md5: b55de9006bcaac8512032bcb69ce3b95
+  size: 264
+  hash: md5
+  path: rusage.mri_em_register.skull.dat

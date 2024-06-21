@@ -1,0 +1,5 @@
+outs:
+- md5: 0ba8893898fa48313ef5fece403d8bce
+  size: 42
+  hash: md5
+  path: apas2aseg.touch

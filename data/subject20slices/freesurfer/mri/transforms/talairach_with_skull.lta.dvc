@@ -1,0 +1,5 @@
+outs:
+- md5: a201602a542c4624a9c86ad3b8fdc158
+  size: 1629
+  hash: md5
+  path: talairach_with_skull.lta

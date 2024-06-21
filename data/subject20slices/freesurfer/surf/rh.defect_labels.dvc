@@ -1,0 +1,5 @@
+outs:
+- md5: 14dfae413313ded8a506292601a6c56c
+  size: 487335
+  hash: md5
+  path: rh.defect_labels

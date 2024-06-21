@@ -1,0 +1,5 @@
+outs:
+- md5: 757e7e27742ae27d720f8fc37fbdaf36
+  size: 1944
+  hash: md5
+  path: aparc.annot.ctab

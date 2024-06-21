@@ -1,0 +1,5 @@
+outs:
+- md5: 27dd1cc6278ddf264bbccb11499ccf13
+  size: 1367734
+  hash: md5
+  path: T1w.nii.gz

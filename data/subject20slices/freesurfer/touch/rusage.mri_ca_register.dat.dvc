@@ -1,0 +1,5 @@
+outs:
+- md5: e1cfa972fcca70eef4b253251c1e0834
+  size: 271
+  hash: md5
+  path: rusage.mri_ca_register.dat

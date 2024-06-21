@@ -1,0 +1,5 @@
+outs:
+- md5: c71752e1bfddd4b7ae6c3a7aa4a6b3c5
+  size: 2241069
+  hash: md5
+  path: intermediary.zip

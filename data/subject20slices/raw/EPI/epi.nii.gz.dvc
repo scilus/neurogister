@@ -1,0 +1,5 @@
+outs:
+- md5: ac8801d49cbd9f347477ec974f7d1fb5
+  size: 84158
+  hash: md5
+  path: epi.nii.gz

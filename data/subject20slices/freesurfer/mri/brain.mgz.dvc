@@ -1,0 +1,5 @@
+outs:
+- md5: dedbe6f8965364b2790cef5272b73698
+  size: 1113248
+  hash: md5
+  path: brain.mgz

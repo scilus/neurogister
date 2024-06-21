@@ -1,0 +1,5 @@
+outs:
+- md5: 5f4d708031fc15a20fa1f339228e49af
+  size: 56333993
+  hash: md5
+  path: dwi.nii.gz

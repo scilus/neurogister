@@ -1,0 +1,5 @@
+outs:
+- md5: 42273f4524f4eff55fe075c51a2a301c
+  size: 203374
+  hash: md5
+  path: aseg.presurf.mgz

@@ -1,0 +1,5 @@
+outs:
+- md5: 3120dab52ea45ecb878ed6f5c0afa4ef
+  size: 336
+  hash: md5
+  path: aparc.DKTatlas2aseg.touch

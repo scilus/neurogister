@@ -1,0 +1,5 @@
+outs:
+- md5: 2a97d692969c88395e6d242315b86df9
+  size: 258
+  hash: md5
+  path: rusage.mris_sphere.rh.dat

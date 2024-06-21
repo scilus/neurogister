@@ -1,0 +1,5 @@
+outs:
+- md5: bbcca4705300ca1849ff4e55071aba92
+  size: 34
+  hash: md5
+  path: asegmerge.touch

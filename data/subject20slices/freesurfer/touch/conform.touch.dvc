@@ -1,0 +1,5 @@
+outs:
+- md5: 86ab59e30551201ca12d468b0bc53b3a
+  size: 260
+  hash: md5
+  path: conform.touch

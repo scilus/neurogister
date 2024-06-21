@@ -1,0 +1,5 @@
+outs:
+- md5: aa019526a253663a1d716792bef9e131
+  size: 1227229
+  hash: md5
+  path: ga.nii.gz

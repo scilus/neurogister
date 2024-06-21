@@ -1,0 +1,5 @@
+outs:
+- md5: c1fec3ca4a3c123dd2eb77a66687008e
+  size: 360730
+  hash: md5
+  path: aparc+aseg.mgz

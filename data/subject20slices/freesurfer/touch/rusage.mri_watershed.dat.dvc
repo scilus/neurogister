@@ -1,0 +1,5 @@
+outs:
+- md5: 6db13da6f12678f31525ca701d6b4f46
+  size: 259
+  hash: md5
+  path: rusage.mri_watershed.dat

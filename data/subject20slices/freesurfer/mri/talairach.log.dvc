@@ -1,0 +1,5 @@
+outs:
+- md5: 9d7f25a2e756f9c9060f781f3887d33d
+  size: 214
+  hash: md5
+  path: talairach.log
