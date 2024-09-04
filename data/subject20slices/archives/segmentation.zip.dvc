@@ -1,5 +1,5 @@
 outs:
-- md5: a32ebad93d53aa77c4a88271e1cc98f3
-  size: 722359
+- md5: 90ba178f707cab702ff9b418f0bdf8fb
+  size: 3003885
   hash: md5
   path: segmentation.zip

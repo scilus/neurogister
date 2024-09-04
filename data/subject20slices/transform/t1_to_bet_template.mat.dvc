@@ -1,0 +1,5 @@
+outs:
+- md5: a47b64492a34850c2da91bfdad314a8d
+  size: 193
+  hash: md5
+  path: t1_to_bet_template.mat

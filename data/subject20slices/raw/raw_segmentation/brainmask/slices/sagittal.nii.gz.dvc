@@ -1,0 +1,5 @@
+outs:
+- md5: b4c83ac8a6daa6d6a015a763c84ba5c6
+  size: 245
+  hash: md5
+  path: sagittal.nii.gz

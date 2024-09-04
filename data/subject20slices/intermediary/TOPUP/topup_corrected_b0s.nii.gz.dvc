@@ -1,5 +1,5 @@
 outs:
-- md5: d8ed6c7d2ab98550751a0b6489fde21c
-  size: 379918
+- md5: ca9145cb7e03f91324b336687d51d48a
+  size: 237191
   hash: md5
   path: topup_corrected_b0s.nii.gz

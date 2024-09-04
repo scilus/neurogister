@@ -1,0 +1,5 @@
+outs:
+- md5: 43a6e0242a336d07b34d45adc61c4512
+  size: 193
+  hash: md5
+  path: t1_to_dwi_space_affine.mat

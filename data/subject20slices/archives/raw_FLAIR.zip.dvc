@@ -1,0 +1,5 @@
+outs:
+- md5: 67663a38ce23120b1b42d73fa9268d2d
+  size: 30638
+  hash: md5
+  path: raw_FLAIR.zip

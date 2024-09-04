@@ -1,0 +1,5 @@
+outs:
+- md5: f9d90fc4d654aacae2988072234bd608
+  size: 3639
+  hash: md5
+  path: wm_pve.nii.gz

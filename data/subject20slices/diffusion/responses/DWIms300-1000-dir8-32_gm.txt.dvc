@@ -1,0 +1,5 @@
+outs:
+- md5: 8c60d25509bb51d6382b2199ace707fb
+  size: 200
+  hash: md5
+  path: DWIms300-1000-dir8-32_gm.txt

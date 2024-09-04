@@ -1,0 +1,5 @@
+outs:
+- md5: e5db262f3621e9423fff1a7a2ef78594
+  size: 1700
+  hash: md5
+  path: csf_pve.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: d7e16ca45aa548978eb7263be73e7ce8
+  size: 283
+  hash: md5
+  path: coronal.nii.gz

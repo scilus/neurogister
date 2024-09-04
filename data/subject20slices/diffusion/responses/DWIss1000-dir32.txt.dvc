@@ -1,0 +1,5 @@
+outs:
+- md5: 28ad5ba5c48618d51a6b92551dac363c
+  size: 100
+  hash: md5
+  path: DWIss1000-dir32.txt

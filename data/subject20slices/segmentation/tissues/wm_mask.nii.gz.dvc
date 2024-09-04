@@ -1,5 +1,5 @@
 outs:
-- md5: f7fbd91d16f913b58fbc07b18436492e
-  size: 59531
+- md5: d2db5dc5e7dfbbc156d22690f953c96a
+  size: 19400
   hash: md5
   path: wm_mask.nii.gz

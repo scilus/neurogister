@@ -1,0 +1,5 @@
+outs:
+- md5: 378247013319add3a0e625ec1ff1a090
+  size: 7388206
+  hash: md5
+  path: tensor.nii.gz

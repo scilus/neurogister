@@ -1,0 +1,5 @@
+outs:
+- md5: 81f2a8db3e3abd0abcb8f95b397be182
+  size: 200
+  hash: md5
+  path: DWIms1000-2000-dir32-60_csf.txt

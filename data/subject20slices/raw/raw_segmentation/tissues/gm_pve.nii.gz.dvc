@@ -1,0 +1,5 @@
+outs:
+- md5: a7cd538f94a629dd8c7ee82a6112c89a
+  size: 4113
+  hash: md5
+  path: gm_pve.nii.gz

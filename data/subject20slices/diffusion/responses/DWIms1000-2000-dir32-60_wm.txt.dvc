@@ -1,0 +1,5 @@
+outs:
+- md5: c889630a8c8b95ced7b8db8918ab665c
+  size: 200
+  hash: md5
+  path: DWIms1000-2000-dir32-60_wm.txt

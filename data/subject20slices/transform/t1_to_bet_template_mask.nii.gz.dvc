@@ -1,0 +1,5 @@
+outs:
+- md5: d50c63068b79890474c747aac0638b57
+  size: 288290
+  hash: md5
+  path: t1_to_bet_template_mask.nii.gz

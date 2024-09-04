@@ -1,0 +1,5 @@
+outs:
+- md5: 4b64caae2f8657b2963534f6ed48586c
+  size: 100
+  hash: md5
+  path: DWIss300-dir8.txt

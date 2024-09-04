@@ -1,0 +1,5 @@
+outs:
+- md5: f23536a07fb7b5ce6fa05a989d94f77d
+  size: 85991
+  hash: md5
+  path: T1w_mask.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 5087f44dd30df4658a07a1d6320183d8
+  size: 100
+  hash: md5
+  path: DWIss2000-dir60.txt

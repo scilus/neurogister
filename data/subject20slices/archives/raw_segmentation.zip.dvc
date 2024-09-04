@@ -1,0 +1,5 @@
+outs:
+- md5: 6aac249229e1e360d1fca90bc4a4bec2
+  size: 28333
+  hash: md5
+  path: raw_segmentation.zip

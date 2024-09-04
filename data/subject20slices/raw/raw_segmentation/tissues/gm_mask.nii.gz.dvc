@@ -1,0 +1,5 @@
+outs:
+- md5: 5ea1276ab9ef2f3411363edfd8384a8f
+  size: 5609
+  hash: md5
+  path: gm_mask.nii.gz
