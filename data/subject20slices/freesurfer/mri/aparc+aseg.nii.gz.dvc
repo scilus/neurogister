@@ -1,0 +1,5 @@
+outs:
+- md5: 4db1d847a780a6eb4ec56ab5c4075980
+  size: 351021
+  hash: md5
+  path: aparc+aseg.nii.gz

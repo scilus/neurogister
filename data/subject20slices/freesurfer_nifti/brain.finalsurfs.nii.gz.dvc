@@ -1,0 +1,5 @@
+outs:
+- md5: 87b0a177fe02cca944373f82217b443d
+  size: 1083104
+  hash: md5
+  path: brain.finalsurfs.nii.gz

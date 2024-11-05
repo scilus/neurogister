@@ -2,4 +2,4 @@ outs:
 - md5: 203e482426065326ff5920368d4d7908
   size: 148950946
   hash: md5
-  path: freesurfer.zip
+  path: freesurfer_full.zip

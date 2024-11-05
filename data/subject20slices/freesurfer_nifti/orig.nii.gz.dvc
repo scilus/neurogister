@@ -1,0 +1,5 @@
+outs:
+- md5: b957dd0f8c8461c2dcad30a3c71ad39f
+  size: 3273972
+  hash: md5
+  path: orig.nii.gz

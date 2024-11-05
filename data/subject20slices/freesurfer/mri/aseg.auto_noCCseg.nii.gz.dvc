@@ -1,0 +1,5 @@
+outs:
+- md5: 050e23d93a5d8db135cb1a8f5e251a1e
+  size: 202356
+  hash: md5
+  path: aseg.auto_noCCseg.nii.gz

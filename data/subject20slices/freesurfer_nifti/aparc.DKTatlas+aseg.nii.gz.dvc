@@ -1,0 +1,5 @@
+outs:
+- md5: 1a7c6dac467c53c1fecb30c904f0192c
+  size: 349036
+  hash: md5
+  path: aparc.DKTatlas+aseg.nii.gz

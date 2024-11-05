@@ -1,0 +1,5 @@
+outs:
+- md5: 52dbeaa2c5f946153355aadba51292cf
+  size: 6426874
+  hash: md5
+  path: rawavg.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: adb5ac4cf5c45040339e04e7c142e8c9
+  size: 27189876
+  hash: md5
+  path: freesurfer_nifti.zip

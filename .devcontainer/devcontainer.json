@@ -9,7 +9,8 @@
         "ghcr.io/devcontainers/features/github-cli:1": {},
         "ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {},
         "ghcr.io/devcontainers-contrib/features/curl-apt-get:1": {},
-        "ghcr.io/devcontainers-contrib/features/wget-apt-get:1": {}
+        "ghcr.io/devcontainers-contrib/features/wget-apt-get:1": {},
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
     "mounts": [
         {

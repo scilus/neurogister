@@ -1,0 +1,5 @@
+outs:
+- md5: 14aa3247ab6b17d4763fc8d215ba7d53
+  size: 1112576
+  hash: md5
+  path: brain.nii.gz

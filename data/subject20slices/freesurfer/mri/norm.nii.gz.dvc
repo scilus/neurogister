@@ -1,0 +1,5 @@
+outs:
+- md5: 31b14eccc96bbe2ac99d577c090ad87b
+  size: 1226961
+  hash: md5
+  path: norm.nii.gz

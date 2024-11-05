@@ -1,0 +1,5 @@
+outs:
+- md5: aa46e4c330f1b8e9e40a2b98ed939f6f
+  size: 2496530
+  hash: md5
+  path: nu.nii.gz

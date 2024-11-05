@@ -1,0 +1,5 @@
+outs:
+- md5: 4827159d0b7e3e0a90d6e79a79c062f4
+  size: 202693
+  hash: md5
+  path: aseg.auto.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 59f8bcdfc450b3c3b677ccc4ec078e7c
+  size: 375093
+  hash: md5
+  path: wm.seg.nii.gz

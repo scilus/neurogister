@@ -1,0 +1,5 @@
+outs:
+- md5: 3096cd39c4d7cbd5f03e3e774a2e16d6
+  size: 119576
+  hash: md5
+  path: filled.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: c8e25cfeb9e46245c89a4c7533728b19
+  size: 735530
+  hash: md5
+  path: ctrl_pts.nii.gz

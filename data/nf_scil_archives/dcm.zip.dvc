@@ -1,0 +1,5 @@
+outs:
+- md5: 234913cbad53c19aa19aef9eda0a3839
+  size: 25648
+  hash: md5
+  path: dcm.zip

@@ -1,0 +1,5 @@
+outs:
+- md5: e68f465b7f974f1460e84c019d0dae93
+  size: 308974
+  hash: md5
+  path: aseg.nii.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: 718f0fc5a3aff0f8569d30d5e58cd149
+  size: 190879
+  hash: md5
+  path: ribbon.nii.gz

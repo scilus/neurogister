@@ -1,0 +1,5 @@
+outs:
+- md5: 8a7266179fddbe5a163d2bd77914b1e5
+  size: 101751
+  hash: md5
+  path: rh.ribbon.nii.gz

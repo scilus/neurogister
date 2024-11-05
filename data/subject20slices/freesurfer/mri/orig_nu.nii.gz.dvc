@@ -1,0 +1,5 @@
+outs:
+- md5: c450fe2e6e31048d7a31334034e6eedc
+  size: 3286363
+  hash: md5
+  path: orig_nu.nii.gz

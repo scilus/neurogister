@@ -1,5 +1,4 @@
 /diffusion.zip
-/freesurfer.zip
 /intermediary.zip
 /raw.zip
 /segmentation.zip
@@ -30,3 +29,5 @@
 /TOPUP.zip
 /source_T1w.zip
 /transform.zip
+/freesurfer_full.zip
+/freesurfer_nifti.zip
