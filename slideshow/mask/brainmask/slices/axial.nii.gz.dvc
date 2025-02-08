@@ -1,0 +1,5 @@
+outs:
+- md5: e4a036c9de5fc54ca3e81bb1eaf4c694
+  size: 2519
+  hash: md5
+  path: axial.nii.gz

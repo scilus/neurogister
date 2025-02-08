@@ -1,0 +1,5 @@
+outs:
+- md5: 44aac70a18af0e272e6a332c68315b5f
+  size: 1185334
+  hash: md5
+  path: dti_residual.nii.gz

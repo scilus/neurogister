@@ -1,0 +1,5 @@
+outs:
+- md5: c36473f05876b28945af883501e4c995
+  size: 926500
+  hash: md5
+  path: afd_sum.nii.gz

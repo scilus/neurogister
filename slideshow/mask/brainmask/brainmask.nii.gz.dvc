@@ -1,0 +1,5 @@
+outs:
+- md5: 3d09257480c34ef12029536a5b325c28
+  size: 5739
+  hash: md5
+  path: brainmask.nii.gz
