@@ -1,0 +1,5 @@
+outs:
+- md5: 6498c1b36de878e8437cc8125365bace
+  size: 78603523
+  hash: md5
+  path: sub-test-2_rev.nii.gz

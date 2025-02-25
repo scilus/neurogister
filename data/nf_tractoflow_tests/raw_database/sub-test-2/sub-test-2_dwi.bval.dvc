@@ -2,4 +2,4 @@ outs:
 - md5: fb1a5b09cc383c9103499c6493311b2e
   size: 126
   hash: md5
-  path: sub-test-1_dwi.bval
+  path: sub-test-2_dwi.bval

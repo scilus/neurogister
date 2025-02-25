@@ -25,7 +25,7 @@ def main(args):
     out = np.empty(dwi.shape[:3] + (0,))
     grads = {}
     sizes = args.sizes
-    for bval, (shell, vols) in get_shells(args.bval, args.bvec, dwi.get_fdata()).items():
+    for bval, (shell, vols) in sorted(get_shells(args.bval, args.bvec, dwi.get_fdata()).items(), key=lambda x: x[0]):
         print(bval)
         print(shell.shape)
         if bval == 0:

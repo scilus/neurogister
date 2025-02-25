@@ -1,0 +1,5 @@
+outs:
+- md5: 09442b32c4c459af4ba1b1628c6e2975
+  size: 452109
+  hash: md5
+  path: sub-test-2_epi.nii.gz

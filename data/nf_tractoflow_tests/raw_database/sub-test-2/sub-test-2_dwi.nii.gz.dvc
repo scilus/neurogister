@@ -2,4 +2,4 @@ outs:
 - md5: b74b42fe9497e87c72e4a7ddaf135800
   size: 7955701
   hash: md5
-  path: sub-test-1_dwi.nii.gz
+  path: sub-test-2_dwi.nii.gz
