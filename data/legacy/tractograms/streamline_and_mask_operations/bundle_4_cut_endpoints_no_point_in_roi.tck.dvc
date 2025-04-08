@@ -1,0 +1,5 @@
+outs:
+- md5: 903a9aabb120f724460ac8165539b7da
+  size: 9030
+  hash: md5
+  path: bundle_4_cut_endpoints_no_point_in_roi.tck

@@ -7,3 +7,5 @@
 /bundle_4_head_tail.nii.gz
 /bundle_4_head_tail_offset.nii.gz
 /bundle_4_center.nii.gz
+/bundle_4_cut_endpoints_no_point_in_roi.tck
+/bundle_4_cut_endpoints_one_point_in_roi.tck
