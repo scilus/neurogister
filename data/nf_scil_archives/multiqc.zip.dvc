@@ -1,0 +1,5 @@
+outs:
+- md5: 2bad0dbe56c7eaaccb988fe31b139f04
+  size: 5521
+  hash: md5
+  path: multiqc.zip
