@@ -55,8 +55,11 @@ The default hatch environment does not give write access to the registry. This i
 
 2. Create an access key for the server that will host the DVC data. Replace `<user>`, `<host>` and `<remote url>` with your information :
    ```
-   ssh-keygen -q -f neurogister.keyfile -N "" -C "<user>@<host>"
-   ssh-copy-id -i neurogister.keyfile.pub <user>@<remote url>
+   USER=<user>
+   HOST=<host>
+   REMOTE_URL=<remote url> or <host>
+   ssh-keygen -q -f neurogister.keyfile -N "" -C "$USER@$HOST"
+   ssh-copy-id -i neurogister.keyfile.pub $USER@$REMOTE_URL
    cp neurogister.keyfile ~/.ssh/.
    cp neurogister.keyfile.pub ~/.ssh/.
    ```
