@@ -48,5 +48,8 @@
             ]
         }
     },
-    "init": true
+    "init": true,
+    "runArgs": [
+        "--network=host"
+    ]
 }
