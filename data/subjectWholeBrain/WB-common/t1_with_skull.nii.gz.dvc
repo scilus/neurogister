@@ -1,5 +1,5 @@
 outs:
-- md5: f3dd7b6113e035be3b1552050ec3ebb1
-  size: 5957476
+- md5: e79b9544b73ffe5c5b46d60fe3a6a2e1
+  size: 17967977
   hash: md5
   path: t1_with_skull.nii.gz
